@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600;700&family=Bebas+Neue&display=swap');
+
+html{
+    font-size: 40px;
+}
+
+body{
+    font-size: 25px;
+}
+
+p{
+   /* font-size: large;  */
+   /* font-size: 25px; */
+   /* font-size: 1.5em; */
+   /* font-size: 150%; */
+   /* font-weight: 900; */
+   /* font-style: italic;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Comic Sans MS Regular'; */
+   /* font: italic 900 150% sans-serif; */
+}
+span{
+    font-size: 1.6em;
+}
+#rem-size{
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+#small-text{
+    font-size: 15px;
+}
