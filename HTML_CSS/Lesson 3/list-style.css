@@ -32,11 +32,25 @@ ul li{
     background-color: antiquewhite;
 } */
 
-ul ol ol{
+/* ul ol ol{
     color: red;
     list-style-type: lower-latin;
-}
-ul ol{
+} */
+/* ul ol{
     list-style-image: url(img/user.png);
+} */
+
+/* p::before{
+    content: "* ";
+}
+p::after{
+    content: " !";
+} */
+
+ul{
+    list-style-type: none;
 }
 
+ul li::before{
+    content: "→ ";
+}

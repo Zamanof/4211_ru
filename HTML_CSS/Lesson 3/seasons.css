@@ -1,0 +1,37 @@
+ol{
+    font-weight: bolder;
+}
+
+
+ul{
+    font-weight: lighter;
+}
+
+#winter{
+    color: blue;
+}
+#winter li{
+    list-style-image: url(img/snow.png);
+}
+
+#spring{
+    color: green;
+}
+#spring li{
+    list-style-image: url(img/leaf.png);
+}
+
+
+#summer{
+    color: gold;
+}
+#summer li{
+    list-style-image: url(img/sun.png);
+}
+
+#fall{
+    color: brown;
+}
+#fall li{
+    list-style-image: url(img/fall.png);
+}
