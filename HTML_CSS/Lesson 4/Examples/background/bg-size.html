@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>background-size</title>
+    <style>
+        body {margin: 30px 10%;}
+        .box {
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            width: 200px;
+            height: 270px;
+            padding: 10px;
+            border: 2px solid #900;
+            margin: 10px;
+            background-image: url(bg/abstract-bg.jpg);
+            background-repeat: no-repeat;
+        }
+        .box3 {background-size: 100%;}
+        .box2 {background-size: 100% 100%;}
+        .box4 {background-size: auto 100%;}
+        .box5 {background-size: 50% 50%;}
+        .box6 {background-size: 50px 50px;}
+        .box7 {background-size: 15em auto;}
+        .box8 {background-size: contain ;}
+        .box9 {background-size: cover;}
+        .box10 {background-size: 90% 90%;}
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <h3>background-size: auto (default)</h3>
+    </div>
+    <div class="box box2">
+        <h3>background-size: 100% 100%</h3>
+    </div>
+    <div class="box box3">
+        <h3>background-size: 100% (100% auto)</h3>
+    </div>
+    <div class="box box4">
+        <h3>background-size: auto 100%</h3>
+    </div>
+    <div class="box box5">
+        <h3>background-size: 50% 50%</h3>
+    </div>
+    <div class="box box6">
+        <h3>background-size: 50px 50px </h3>
+    </div>
+    <div class="box box7">
+        <h3>background-size: 15em auto</h3>
+    </div>
+    <div class="box box8">
+        <h3>background-size: contain</h3>
+    </div>
+    <div class="box box9">
+        <h3>background-size: cover</h3>
+    </div>
+    <div class="box box10">
+        <h3>background-size: 90% 90%</h3>
+    </div>
+    
+</body>
+</html>

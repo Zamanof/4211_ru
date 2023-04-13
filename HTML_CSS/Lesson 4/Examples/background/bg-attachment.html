@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>background-attachment</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+        
+        .bg,
+        footer {
+            background-color: #526F9B;          
+            text-align: center;
+            color: #fff;
+            padding: 20px 0;
+        }
+        
+        .bg {
+            height: 600px;
+        }
+        
+        .bg h1 {
+            margin-top: 10%;
+        }
+        
+        .bg1 {
+            background-image: url(bg/bg-city.jpg);
+            background-size: contain;
+            background-attachment: scroll;
+        }
+        
+        .bg2 {
+            background-image: url(bg/sky-bg.jpg);
+            background-attachment: fixed;
+        }
+        
+        .text {
+            width: 80%;
+            margin: 30px auto;
+        }
+        
+        .scroll-btn {
+            width: 25px;
+            height: 25px;
+            margin: 60px auto 0;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            padding: 12px 10px 5px;
+            background-color: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg bg1">
+        <h1>background-attachment: scroll</h1>
+        <h2>Scroll down</h2>
+        <div class="scroll-btn">&#9660;</div>
+    </div>
+    <div class="text">
+        <h2>Random Text 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptates, inventore distinctio, nostrum odio consequuntur, ex, aliquam omnis sequi sunt odit accusamus. Ut optio architecto delectus suscipit facere nesciunt accusantium.</p>
+        <p>Soluta fugiat illum maxime recusandae, sequi officia ab debitis nulla iste quisquam qui natus non ipsa assumenda aut delectus quaerat alias magni, vitae expedita. Aliquam facere recusandae facilis sapiente accusamus.</p>
+        <p>Distinctio nemo odit, nesciunt dolorem vero eveniet earum dicta cum, similique voluptas nobis, repellat quia alias quaerat laudantium, ex numquam magni tempore. A repellendus facilis molestiae quos. Laudantium, quod, pariatur.</p>
+    </div>
+
+    <div class="bg bg2">
+        <h1>background-attachment: fixed</h1>
+        <h2>Scroll down</h2>
+        <div class="scroll-btn">&#9660;</div>
+    </div>
+    <div class="text">
+        <h2>Random Text 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam illum eaque incidunt ad dolorem doloribus in commodi suscipit, tempore voluptatem, aut omnis quos temporibus id obcaecati aspernatur vel aliquid.</p>
+        <p>Amet sunt nisi, dolores velit aliquid sequi. Tempora fugit sequi quam, expedita dignissimos aspernatur corporis facere vero saepe omnis, commodi eveniet magni possimus veniam porro consequatur adipisci ducimus laboriosam esse.</p>
+        <p>A eius ut libero architecto deserunt harum dolorum aperiam enim velit consequuntur! Minima enim explicabo sapiente maxime, cum, quis magnam ex ad, nostrum perferendis quas beatae sit quos dolore qui.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum totam ad natus, ratione alias aspernatur deserunt aut molestias amet nisi explicabo, minus libero dolore sit nulla, repudiandae consequatur dicta perspiciatis.</p>
+        <p>Ullam nobis natus, laborum inventore repudiandae consequatur culpa quis dolorem at, placeat in, provident repellendus! Omnis tenetur nesciunt cumque illo dolorum alias ad, quae asperiores laborum repellendus, quas vel explicabo.</p>
+    </div>
+    <footer>
+        Property background-attacment
+    </footer>
+</body>
+
+</html>

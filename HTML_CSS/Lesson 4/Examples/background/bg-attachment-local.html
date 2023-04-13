@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>background-attachment: local</title>
+    <style>
+        body {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        #poem {
+            font-family: sans-serif;
+            line-height: 2;
+            width: 350px;
+            height: 300px;
+            padding: 10px 30px;
+            overflow: auto;
+            background-image: url(bg/white-bg.jpg);
+            background-attachment: local;
+        }
+
+        .control {
+            width: 350px;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="poem">
+        <h2>Dreams</h2>
+        <p>Hold fast to dreams</p>
+        <p>For if dreams die</p>
+        <p>Life is a broken-winged bird</p>
+        <p>That cannot fly.</p>
+        <p>Hold fast to dreams</p>
+        <p>For when dreams go</p>
+        <p>Life is a barren field</p>
+        <p>Frozen with snow.</p>
+        <footer>
+            <h2>By Langston Hughes</h2>
+        </footer>
+    </div>
+    <fieldset class="control">
+        <form name="bgAttacment">
+            <input type="radio" name="bga" id="scroll" value="scroll">
+            <label for="scroll">scroll</label>
+            <input type="radio" name="bga" id="local" value="local" checked>
+            <label for="local">local</label>
+        </form>
+    </fieldset>
+
+    <script>
+        for (let i = 0; i < 2; i++) {
+            bgAttacment.bga[i].onclick = function() {
+                poem.style.backgroundAttachment = this.value;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

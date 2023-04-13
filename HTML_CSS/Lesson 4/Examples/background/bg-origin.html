@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>background-origin</title>
+    <style>
+        body {margin: 30px 10%;}
+        .box {
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            width: 350px;
+            height: 350px;
+            padding: 10px;
+            border: 8px dashed #900;
+            margin: 10px;
+            background-image: url(bg/abstract-bg-2.jpg);
+            background-repeat: no-repeat;
+        }
+        .box1 {background-origin: padding-box;}
+        .box2 {background-origin: border-box;}
+        .box3 {background-origin: content-box;}
+        
+    </style>
+</head>
+<body>
+   <div class="box box1">
+        <h3>background-origin: padding-box (default)</h3>
+    </div>
+    <div class="box box2">
+        <h3>background-origin: border-box</h3>
+    </div>
+    <div class="box box3">
+        <h3>background-origin: content-box</h3>
+    </div> 
+</body>
+</html>

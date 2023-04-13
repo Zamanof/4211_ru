@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>border</title>
+    <style>
+        body {
+            font-family: 'Bookman Old Style', 'Times New Roman', serif;
+            width: 80%;
+            margin: 20px auto; 
+        }
+        div {
+            width: 600px;
+            padding: 5px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .bordered {
+            border-width: 5px;
+            border-color: blueviolet;
+        }
+        .solid {
+            border-style: solid;
+        }
+        .dashed {
+            border-style: dashed;
+        }
+        .dotted {
+            border-style: dotted;
+        }
+        .double {
+            border-style: double;
+        }
+        .ridge {
+            border-style: ridge;
+        }
+        .groove {
+            border-style: groove;
+        }
+        .double {
+            border-style: double;
+        }
+        .inset {
+            border-style: inset;
+        }
+        .outset {
+            border-style: outset;
+        }
+        .side1 {
+            border-style: double;
+        }
+        .side2 {
+            border-style: double solid;
+        }
+        .side3 {
+            border-style: dashed solid dotted;
+        }
+        .side4 {
+            border-style: solid ridge double none;
+        }
+        .bdw {
+            border: solid #fc3591;
+        }
+        .thin {
+            border-width: thin
+        }
+        .medium {
+            border-width: medium
+        }
+        .thick {
+            border-width: thick
+        }
+        .pixel {
+            border-width: 3px;
+        }
+        .punkt {
+            border-width: 6pt;
+        }
+        .ems {
+            border-width: 0.3em;
+        }
+        .bw2 {
+            border-width: 3px 6px
+        }
+        .bw3 {
+            border-width: 2px 6px 12px;
+        }
+        .bw4 {
+            border-width: 1px 4px 2px 8px
+        }
+        [class^='bdc'] {
+            border: 5px double
+        }
+        .bdc1 {
+            border-color: crimson;
+        }
+        .bdc2 {
+            border-color: hsla(0, 100%, 50%, 0.79) #ff0;
+        }
+        .bdc3 {
+            border-color: blueviolet #f7079b rgb(0, 235, 255);
+        }
+        .bdc4 {
+            border-color: blue rgb(0, 235, 255) hsl(95, 91%, 26%) #f40;
+        }
+        .bt {
+            border-top: 3pt solid #ccc;
+        }
+        .br {
+            border-right: .3em dotted #f00;
+        }
+        .bb {
+            border-bottom: 7px dashed rgb(0, 235, 255);
+        }
+        .bl {
+            border-left: thick outset crimson;
+        }
+        .combo {
+            border: 2px solid #ddd;
+            border-bottom-color: #666;
+        }
+        .combo2 {
+            border: 1px solid #7efd88;
+            border-left: 6px double #1b9f26;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>border-style</h2>
+    <div class="bordered solid">solid</div>
+    <div class="bordered dashed">dashed</div>
+    <div class="bordered dotted">dotted</div>
+    <div class="bordered double">double</div>
+    <div class="bordered ridge">ridge</div>
+    <div class="bordered groove">groove</div>
+    <div class="bordered inset">inset</div>
+    <div class="bordered outset">outset</div>
+    <h3>1-4 values</h3>
+    <div class="bordered side1">border-style: double;</div>
+    <div class="bordered side2">border-style: double solid;</div>
+    <div class="bordered side3">border-style: dashed solid dotted;</div>
+    <div class="bordered side4">border-style: solid ridge double none;</div>
+    <h2>border-width</h2>
+    <div class="bdw thin">thin</div>
+    <div class="bdw medium">medium</div>
+    <div class="bdw thick">thick</div>
+    <div class="bdw pixel">3px</div>
+    <div class="bdw punkt">6pt</div>
+    <div class="bdw ems">0.3em</div>
+    <div class="bdw bw2">2 different border</div>
+    <div class="bdw bw3">3 different border</div>
+    <div class="bdw bw4">4 different border</div>
+    <h2>border-color</h2>
+    <div class="bdc1">One color (border-color: crimson;)</div>
+    <div class="bdc2">Two colors (border-color: #f00 #ff0;)</div>
+    <div class="bdc3">Three colors (blueviolet #f7079b rgb(0, 235, 255);)</div>
+    <div class="bdc4">Four colors (border-color: blue rgb(0, 235, 255) hsl(95, 91%, 26%) #f40;)</div>
+    <h2>border</h2>
+    <div class="bt">border-top: 3pt solid #ccc;</div>
+    <div class="br">border-right: .3em dotted #f00;</div>
+    <div class="bb">border-bottom: 7px dashed rgb(0, 235, 255);</div>
+    <div class="bl">border-left: thick outset crimson;</div>
+    <div class="combo">border: 2px solid #ddd;<br>
+            border-bottom-color: #666;</div>
+    <div class="combo2">border: 1px solid #7efd88;<br>
+            border-left: 6px double #1b9f26;</div>
+            
+
+</body>
+
+</html>

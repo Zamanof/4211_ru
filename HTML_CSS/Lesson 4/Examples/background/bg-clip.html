@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>background-clip</title>
+    <style>
+        body {
+            margin: 30px 10%;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+        
+        .box {
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+            width: 330px;
+            height: 330px;
+            padding: 10px;
+            border: 8px dashed #900;
+            margin: 10px;
+            background-image: url(bg/abstract-bg-2.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        .box1 {
+            background-clip: padding-box;
+        }
+        
+        .box2 {
+            background-clip: border-box;
+        }
+        
+        .box3 {
+            background-clip: content-box;
+        }
+        
+        .box4 h3 {
+            font-size: 80px;
+            margin: 10px 0;
+        }
+        
+        .box4 {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        <h3>background-clip: padding-box</h3>
+    </div>
+    <div class="box box2">
+        <h3>background-clip: border-box (default)</h3>
+    </div>
+    <div class="box box3">
+        <h3>background-clip: content-box</h3>
+    </div>
+    <div class="box box4">
+        <h3>bg-clip: text</h3>
+    </div>
+</body>
+
+</html>
