@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+ol{
+    list-style-type: none;
+    color: white;
+}
+
+.head{
+    font-weight: 900;
+    margin-top: 20px;
+    padding-top: 10px;
+
+    background-color: #0e494e;
+}
+.item{
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: -40px;
+    padding: 10px 30px;
+    background-color: #236167;
+}
+span{
+    background-color: darkseagreen;
+    padding: 10px 30px;
+    
+    
+}
