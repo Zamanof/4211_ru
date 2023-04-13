@@ -1,0 +1,22 @@
+body{
+    background-color: cadetblue;
+}
+img{
+    width: 500px;
+    height: 500px;
+    /* border-top: 10px;
+    border-left: 10px;
+    border-bottom: 80px;
+    border-left-style: double;
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-color: blueviolet; */
+    /* border-style: solid; */
+
+    /* border-radius: 20px 50px 100px 80px; */
+    /* border-radius: 50%; */
+    /* border-radius: 80px/150px; */
+    border-radius: 80px 80px 80px 80px;
+    margin: 50px;
+    
+}

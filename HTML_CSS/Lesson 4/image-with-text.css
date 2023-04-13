@@ -1,0 +1,13 @@
+#mono{
+    width: 100px;
+    float: left;
+    margin: 5px 20px 5px 0;
+    box-shadow: 5px 5px 15px 15px rgba(207,34,34,0.47);
+    cursor: auto;
+}
+
+#mono:hover{
+    width: 150px;
+    box-shadow: 5px 5px 15px 5px rgba(86, 16, 214, 0.47);
+    cursor: grab;
+}
