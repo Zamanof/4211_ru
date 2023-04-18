@@ -1,0 +1,25 @@
+table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    /* border-collapse: separate;
+    border-spacing: 5px; */
+    background-color: bisque;
+}
+
+th{
+    border: 1px solid black;
+    width: 150px;
+    /* background-image: url(img/sunrisesunsettime.jpg); */
+    background-color: yellow;
+}
+
+td{
+    border: 1px solid magenta;
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    background-color: yellowgreen;
+}
+/* #ipsum{
+    width: 150px;
+} */

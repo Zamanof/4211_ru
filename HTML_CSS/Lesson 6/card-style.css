@@ -1,0 +1,41 @@
+
+    .card {
+        width: 300px;
+        height: 450px;
+        margin: 0 auto;
+        position: relative;/*относительное позиционирование родительского элемента,
+        чтобы дочерние .product, .description располагать внутри card*/
+        border: 1px solid #f5dde1;
+      }
+      .product, .description {
+        width: 100%;/*ширина 100% родителя*/
+        height: 100%;/*высота 100% родителя*/
+        position: absolute;/*абсолютное позиционирование элементов внутри родителя с классом card*/
+        left: 0;/*координата позиционирвоания слева 0px*/
+        top: 0;/*координата позиционирвоания сверху 0px*/
+        text-align:center;
+        backface-visibility: hidden;/*скрывает обратную сторону во время переворота*/
+        background-color: #fff;
+        transition: 1s;
+       }
+  
+      .description a{
+        display:inline-block;
+        padding: 10px 30px;
+        margin-top:30px;
+        text-decoration:none;
+        text-transform:uppercase;
+        color:#fff;
+        background-color: #f5dde1;
+      }
+      .description {
+        box-sizing:border-box;
+        padding:40px;
+        transform: rotateY(180deg); /*поврот блока с описание на 180 град, прячем в начальном состоянии, без наведения курсора мыши*/
+      }
+      .card:hover .product {
+          transform: rotateY(180deg); /*разворачиваем блок с изображением на 180 градусов*/
+      }
+      .card:hover .description {
+          transform: rotateY(360deg); /*возвразщаем блок с описанием*/
+      }

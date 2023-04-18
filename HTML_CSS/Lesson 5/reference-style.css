@@ -1,0 +1,56 @@
+body{
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+#mona{
+    width: 200px;
+}
+
+p{
+
+    white-space: pre;
+}
+
+/* pre{
+
+} */
+
+#up{
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+}
+
+#menu{
+    width: 1500px;
+    list-style: none;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: sticky;
+    top:8px;
+}
+#menu a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    width: 250px;
+    margin-left: 5px;
+    border-bottom: 10px blue solid;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+#menu a:hover{
+    border-bottom: 10px black solid;
+    background-color: rgb(9, 238, 226);
+    color: black;
+}
+
