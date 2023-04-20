@@ -1,0 +1,24 @@
+div{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    /* min-width: 300px;
+    max-width: 500px; */
+    margin: 10px;
+    float: left;
+}
+#first{
+    box-sizing:border-box;
+    background-color: green;
+    text-align: center;
+    padding-top: 80px;
+}
+#last{
+    background-color: blue;
+    vertical-align: middle;
+}
+#circle{
+    background-color: red;
+    border-radius: 50%;
+    border: 5px dotted;
+}

@@ -1,0 +1,58 @@
+.phone{
+    border: 5px solid;
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    background-color: white;
+    border-color: #aaa #676767;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+
+.camera{
+    background-color: #000;
+    border: 4px solid #666;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.circle{
+    width: 13px;
+    height: 13px;
+    background-color: #333;
+    border-radius: 50%;
+    float: left;
+}
+.dynamic{
+    width: 70px;
+    height: 6px;
+    background-color: #333;   
+    border: 4px solid #ccc;
+    border-radius: 6px;
+    float: right;
+}
+.top{
+    width: 110px;
+    margin: 10px auto 20px 27%;
+    overflow: hidden;
+}
+
+.inner{
+    height: 75%;
+    background-color: #111;
+    background-image: url(settings_menu_icon.png);
+    background-size: cover;
+    border: 4px solid #505050;
+    border-radius: 8px;
+}
+
+.control{
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: 4px solid #505050;
+    border-radius: 50%;
+    margin: 25px auto 0;
+}
