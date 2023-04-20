@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+
+
+td, th{
+    border: 1px solid;
+}
+
+caption{
+    text-align: right;
+    caption-side: bottom;
+}
+
+.col1{
+    background-color: greenyellow;
+}
+.col2{
+    background-color: rebeccapurple;
+}
+
+.col3{
+    background-color: brown;
+}
+.col4{
+    background-color: aqua;
+}
