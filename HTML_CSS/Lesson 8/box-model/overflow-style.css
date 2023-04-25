@@ -1,0 +1,51 @@
+body {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Cambria, serif;
+}
+
+.visible {
+    width: 500px;
+    height: 220px;
+    background-color: #9bead8;
+    margin-bottom: 30px;
+}
+
+.programm-code {
+    background-color: #e4fdf4;
+    white-space: pre;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+}
+
+.hidden-content {
+    background-color: #84fc89;
+    font-size: 1.16em;
+    padding: 0 15px;
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.scroll-content {
+    background-color: #c0fc84;
+    font-size: 1.16em;
+    padding: 0 15px;
+    width: 500px;
+    height: 250px;
+    overflow: scroll;
+}
+
+.parent-block {
+    background-color: #fcfc66;
+    overflow: auto;
+}
+
+.inherit-property {
+    float: left;
+    height: 200px;
+    width: 30%;
+    margin: 1.5%;
+    overflow: inherit;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float columns</title>
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        nav {
+            float: right;
+            font-size: 1.3em;
+            margin-top: 1.2em;
+        }
+        nav a {margin-left: 10px;}
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+             overflow: auto;
+        }
+
+        .block-left {
+            width: 23%;
+            margin: 1%;
+            float: left;
+        }
+
+        .block-left h2 {
+            color: blueviolet;
+        }
+
+        .block-right {
+            width: 23%;
+            margin: 1%;
+            float: right;
+        }
+
+        .block-right h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--    .container>.block-left*4>h2{Float Left Block $}+p*2>lorem15-->
+    <div class="container">
+        <div class="logo">
+            <h1>Floating Columns</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="block-left">
+            <h2>Float Left Block 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptas, distinctio odio error tenetur magnam!</p>
+            <p>Repellendus, aspernatur, saepe optio architecto et numquam blanditiis repellat voluptatibus nisi non quasi! Cumque, nostrum!</p>
+        </div>
+        <div class="block-left">
+            <h2>Float Left Block 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, ad, dolorum? Quis, repudiandae sed ea!</p>
+            <p>Maxime eligendi, at architecto illum, obcaecati veniam iusto dignissimos corporis harum impedit voluptas rem porro.</p>
+        </div>
+        <div class="block-left">
+            <h2>Float Left Block 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptas, laudantium atque iusto cum alias.</p>
+            <p>Tenetur repudiandae ut inventore nemo expedita veritatis alias dolor commodi dolores nulla. Rem, fugit saepe.</p>
+        </div>
+        <div class="block-left">
+            <h2>Float Left Block 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maxime nobis vero inventore ipsum praesentium!</p>
+            <p>Pariatur necessitatibus, maxime ab repellendus, hic omnis ex debitis sequi itaque facilis deleniti recusandae consequatur.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="block-right">
+            <h2>Float Right Block 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptas, distinctio odio error tenetur magnam!</p>
+            <p>Repellendus, aspernatur, saepe optio architecto et numquam blanditiis repellat voluptatibus nisi non quasi! Cumque, nostrum!</p>
+        </div>
+        <div class="block-right">
+            <h2>Float Right Block 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, ad, dolorum? Quis, repudiandae sed ea!</p>
+            <p>Maxime eligendi, at architecto illum, obcaecati veniam iusto dignissimos corporis harum impedit voluptas rem porro.</p>
+        </div>
+        <div class="block-right">
+            <h2>Float Right Block 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptas, laudantium atque iusto cum alias.</p>
+            <p>Tenetur repudiandae ut inventore nemo expedita veritatis alias dolor commodi dolores nulla. Rem, fugit saepe.</p>
+        </div>
+        <div class="block-right">
+            <h2>Float Right Block 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maxime nobis vero inventore ipsum praesentium!</p>
+            <p>Pariatur necessitatibus, maxime ab repellendus, hic omnis ex debitis sequi itaque facilis deleniti recusandae consequatur.</p>
+        </div>
+    </div>
+</body>
+</html>

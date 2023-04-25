@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>overflow</title>
+    <link rel="stylesheet" href="overflow-style.css">
+</head>
+
+<body>
+    <h1>CSS-property overflow</h1>
+    <h2>overflow: visible (default)</h2>
+    <div class="visible">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iste voluptates, voluptatibus praesentium sit quis maxime, iure porro repellat nesciunt aperiam deserunt, omnis odio suscipit minus impedit temporibus! Eligendi, itaque.</p>
+        <p>Necessitatibus labore, natus nulla eius recusandae voluptatem reprehenderit consequuntur dolorem asperiores harum neque, aliquam deserunt aperiam rerum eaque eos tempora sunt vitae voluptatum odit optio provident, ratione fugiat. Cupiditate, voluptatum.</p>
+        <p>Consequatur nisi, aperiam nostrum veniam quae perferendis iure esse animi exercitationem ut omnis dicta cupiditate. Accusantium labore nesciunt maxime, ab porro vel eos, iure, officiis nobis quisquam ea iusto nam.</p>
+    </div>
+    <h2>overflow: auto</h2>
+    <div class="programm-code">
+        <code>&lt;html&gt;
+        
+        &lt;head&gt;
+            &lt;title&gt;JavaScript Animation&lt;/title&gt;
+        
+            &lt;script&gt;
+                var imgObj = null;
+        
+                function init() {
+                    imgObj = document.getElementById('myImage');
+                    imgObj.style.position = 'relative';
+                    imgObj.style.left = '0px';
+                }
+        
+                function moveRight() {
+                    imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+                }
+        
+                window.onload = init;
+            &lt;/script&gt;
+        
+        &lt;/head&gt;
+        
+        &lt;body&gt;
+        
+            &lt;form&gt;
+                &lt;img id="myImage" src="/images/html.gif" /&gt;
+                &lt;p&gt;Click button below to move the image to right&lt;/p&gt;
+                &lt;input type="button" value="Click Me" onclick="moveRight();" /&gt;
+            &lt;/form&gt;
+        
+        &lt;/body&gt;
+        
+    &lt;/html&gt;</code>
+    </div>
+    <h2>overflow: hidden</h2>
+    <div class="hidden-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi deserunt temporibus, suscipit id reiciendis eligendi modi tempore tenetur! Sit placeat excepturi distinctio ut a et quasi, esse iste. Aut.</p>
+        <p>Perspiciatis tenetur sequi delectus voluptatibus aperiam impedit, vitae doloribus minus? Nihil aspernatur at itaque consequatur, distinctio error. Perferendis dolor voluptates ratione esse et doloremque suscipit, aliquid veniam nihil quo. Tenetur.</p>
+        <p>Accusamus minima odio aliquam minus possimus culpa dignissimos ex cum libero illum asperiores amet cupiditate vero alias animi error, cumque rerum voluptas doloribus, delectus, eum, voluptates harum! Inventore sed, voluptatem?</p>
+    </div>
+    <h2>overflow: scroll</h2>
+    <div class="scroll-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eos rem possimus numquam vero quidem ea consequatur cumque sed ratione quibusdam iure repudiandae, porro! Beatae repellendus nemo, rem totam perferendis.</p>
+        <p>Pariatur velit fugiat quos esse reprehenderit distinctio, neque aperiam doloremque quo repudiandae nemo debitis asperiores necessitatibus omnis ut blanditiis! Distinctio dolorum, modi laboriosam iste beatae eaque atque corporis asperiores iure.</p>
+        <p>Hic voluptas ea esse iusto non aliquid voluptatem provident harum ullam, qui omnis molestiae placeat rem quo quaerat eius aspernatur repellendus dolore nostrum est obcaecati quidem tempora sapiente, nulla deleniti.</p>
+        <p>Architecto vitae, corporis eligendi, labore doloremque voluptas! Doloribus, obcaecati expedita aut eaque explicabo, dolor quam repellat, cupiditate tenetur sed quidem veniam. Quo qui tempore doloremque vel officiis maiores fuga illum!</p>
+    </div>
+    <h2>overflow: inherit</h2>
+    <!--    .parent-block>.inherit-property*3>h3{Inner block $}+p*2>lorem-->
+    <div class="parent-block">
+        <div class="inherit-property">
+            <h3>Inner block 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem praesentium culpa maxime doloremque et consequatur consequuntur quia vitae qui corporis alias voluptatum deleniti adipisci ab, doloribus neque aut, tempora eaque.</p>
+            <p>Voluptatibus, fugiat repellat. Necessitatibus, adipisci fuga eius explicabo aliquam ex consequuntur tenetur doloremque quam quos ipsum dolor assumenda delectus dignissimos esse laborum neque voluptatibus hic earum? Beatae dignissimos rerum deleniti.</p>
+        </div>
+        <div class="inherit-property">
+            <h3>Inner block 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repellendus ipsa iusto natus debitis, culpa quae iste. Eaque numquam magni dolorem, sequi nostrum rerum architecto iure consectetur cupiditate reprehenderit aliquam.</p>
+            <p>Voluptate praesentium cumque optio, dolorum ad adipisci, rem earum fugit et, ipsum accusantium. Quisquam cumque, aliquid tenetur quibusdam delectus illo quos suscipit nam, inventore perferendis temporibus! Atque dolores esse a.</p>
+        </div>
+        <div class="inherit-property">
+            <h3>Inner block 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nostrum, veritatis assumenda similique officiis perferendis impedit quis iusto modi eius harum iste eveniet cum quasi, aspernatur recusandae praesentium alias velit.</p>
+            <p>Facilis odit consequatur vitae inventore eligendi delectus rerum magni doloribus maxime reiciendis corrupti, expedita perspiciatis dolores beatae ex quibusdam adipisci impedit mollitia, dignissimos odio. Eveniet autem, adipisci! Maxime, itaque, nihil.</p>
+        </div>
+    </div>
+</body>
+
+</html>

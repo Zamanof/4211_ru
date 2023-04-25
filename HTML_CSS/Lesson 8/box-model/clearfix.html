@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class clearfix</title>
+    <style>
+        body {
+            font-family: Calibri, sans-serif;
+        }
+
+        .wrapper {
+            width: 90%;
+            margin: auto;
+        }
+
+        .col-2 {
+            width: 48%;
+            margin: 1%;
+            float: left;
+        }
+
+        .col-3 {
+            width: 30.33%;
+            margin: 1%;
+            float: left;
+        }
+
+        
+
+        .alert {
+            border: 2px solid #333;
+            padding: 15px;
+            background-color: #ff0;
+        }
+
+        .alert h4 {
+            margin-top: 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .info {background-color: #68a1fd;}
+        .change {background-color: #68fd7f;}
+        
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: table;
+        }
+
+        .clearfix::after {
+            clear: both
+        }
+    </style> 
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="col-2">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi et facilis, fugit dicta adipisci omnis repudiandae, quidem esse reiciendis, a doloribus praesentium vero id obcaecati alias necessitatibus ullam ex ea!</p>
+            <p>Quas, velit quibusdam adipisci, quos assumenda numquam totam neque blanditiis nostrum asperiores perferendis delectus, accusamus natus similique maxime? Rem, sunt perferendis cum rerum tempore quaerat molestiae vero? Impedit iste, nobis.</p>
+            <p>Obcaecati quasi saepe, blanditiis aliquid fuga nobis. Consectetur saepe necessitatibus esse suscipit quidem omnis pariatur enim tempora excepturi labore!</p>
+        </div>
+        <div class="col-2">
+            <h2>Our Experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga harum voluptates expedita dolores, laudantium facere accusamus nisi! Cumque excepturi reiciendis voluptate ipsa dolores, neque laborum, porro magni quis exercitationem suscipit.</p>
+            <p>Quia officia harum esse tenetur consequuntur, eligendi totam inventore reiciendis culpa</p>
+
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="col-3">
+            <h2>Blog Post 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dicta impedit quisquam</p>
+            <p>Repellat quas nihil ullam, eum ipsa voluptatem nisi saepe nobis explicabo! Modi ab nesciunt dicta sed, explicabo excepturi?</p>
+            <p>Quae voluptate ullam aspernatur, laboriosam quisquam, sed. Dolorum alias</p>
+            <p>Voluptates sunt, neque corporis error natus! Maxime facere nobis, nisi, ea ratione esse, ex sit dolores officiis eaque totam illo. Suscipit!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="col-3">
+            <h2>Blog Post 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sapiente aliquid repellat in explicabo impedit eos a eaque nobis esse fugiat quae non enim unde, adipisci quis doloremque harum odit.</p>
+            <p>Commodi, tempore libero quos. Quae neque voluptate rerum libero blanditiis asperiores, error doloribus natus et eligendi commodi veniam laudantium ducimus eaque nobis iusto dicta aliquid! Illum ea numquam, natus qui.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="col-3">
+            <h2>Blog Post 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloribus quidem sit similique veritatis alias molestias quae, fugiat sunt pariatur facere sed debitis molestiae rem voluptas, sequi in sapiente vero.</p>
+            <p>Molestias porro animi, id illo recusandae impedit eius eum itaque magni similique, iusto. Recusandae sunt dicta ipsam quisquam autem eius sint. Ab totam, eos labore ea nihil! Repudiandae, et velit?</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="col-3">
+            <div class="alert info">
+                <h4>Important information</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis dolore tempora odit laboriosam, non, corporis tempore, delectus deserunt at porro asperiores totam doloribus nobis.</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="alert change">
+                <h4>Changes in the schedule</h4>
+                <p>Harum magnam atque, excepturi eveniet accusantium illum fuga animi in iure eius sint adipisci porro doloremque, perferendis, a facere. Temporibus rem aperiam veniam ut. Sequi!</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="alert">
+                <h4>Attention</h4>
+                <p>Ullam ratione distinctio nihil incidunt quis at sequi vel animi nisi odit tempora libero beatae quaerat magni quibusdam reiciendis dolores, ipsa tenetur. Labore voluptate, eos.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Float and Overflow</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Tahoma, Trebuchet, Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .wrap {
+            width: 1000px;
+            margin: auto;
+            background-color: orange;
+            /* overflow: hidden;*/
+        }
+        .block {
+            width: 30.3%;
+            margin: 1.5%;
+            float: left;
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Use overflow: hidden for parent element</h1>
+    <!--    .wrap>.block*3>h2{Float Block $}+p*2>lorem20-->
+    <div class="wrap">
+        <div class="block">
+            <h2>Float Block 1</h2>
+            <p>Quintum bulatore ipsum dolor sit amet, consectetur adipisicing elit. Quis eaque asperiores recusandae labore ipsam ullam eos modi iste tempora quidem illo incidunt!</p>
+            <p>Ut sit voluptatem nulla voluptates. Doloribus illo incidunt eveniet est, recusandae cum ratione. Ad, cum, reprehenderit. Hic vitae dolor, fuga ex saepe harum sit doloremque!</p>
+        </div>
+        <div class="block">
+            <h2>Float Block 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit similique quo eaque nulla recusandae molestiae explicabo, est blanditiis quisquam aut.</p>
+            <p>Fugit temporibus nisi sequi fuga ex saepe accusamus, est voluptates sapiente blanditiis, dolores ut repudiandae harum. Veritatis, minus in ea.</p>
+        </div>
+        <div class="block">
+            <h2>Float Block 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aperiam itaque voluptatem architecto ratione id quos totam, maiores odit nulla.</p>
+            <p>Repellat, expedita? Illum explicabo sequi sit quis expedita nam accusantium itaque in temporibus harum earum quaerat laborum deserunt, nobis optio.</p>
+        </div>
+    </div>
+</body>
+
+</html>
