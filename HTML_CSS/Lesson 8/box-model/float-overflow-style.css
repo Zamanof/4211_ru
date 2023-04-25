@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, Trebuchet, Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.wrap {
+    width: 1000px;
+    margin: auto;
+    background-color: orange;
+    /* overflow: hidden; */
+}
+.block {
+    width: 30.3%;
+    margin: 1.5%;
+    float: left;
+    background-color: white;
+    padding: 10px;
+}

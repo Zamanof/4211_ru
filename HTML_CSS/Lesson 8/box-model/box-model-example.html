@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Box model</title>
+    <link rel="stylesheet" href="box-model-style.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container clearfix">
             <h1>Sample Page</h1>
             <h2>with CSS Box model</h2>
             <p>for students</p>
         </div>
     </header>
     <section>
-        <div class="container">
+        <div class="container clearfix">
             <div class="half">
                 <h2>About Us</h2>
                 <div class="right-block">
@@ -37,7 +38,7 @@
     <!--    section>h2{Popular Courses}+.container>.course*5>(.top>.promo{Most popular}+h3{Developer})+(p>lorem12)+.price{19.99}-->
     <section>
         <h2 class="text-center">Popular Courses</h2>
-        <div class="container">
+        <div class="container clearfix">
             <div class="course">
                 <div class="top">
                     <div class="promo">Top sales</div>
@@ -82,7 +83,7 @@
     </section>
     <!--    footer>(.container>.col*3>h2{Our Courses}+ul.unstyled>li*4>lorem4)+.footer-bottom>.container>.half*2>{&copy; 2018 | Simple Page Company &trade;}-->
     <footer>
-        <div class="container">
+        <div class="container clearfix">
             <div class="col">
                 <h2>Our Courses</h2>
                 <ul class="unstyled">
@@ -112,7 +113,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="half">&copy; 2018 | Simple Page Company &trade;</div>
                 <div class="half text-right">All rights reserved.</div>
             </div>
