@@ -1,0 +1,29 @@
+.container{
+    width: 1000px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+}
+
+.box{
+    flex-basis: 200px;
+    height: 250px;
+    /* flex-grow: 1; */
+}
+
+.first{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.second{
+    background-color: rgb(128, 201, 45);
+    flex-grow: 2;
+}
+.third{
+    background-color: turquoise;
+    flex-grow: 0;
+}
+.fourth{
+    background-color: tomato;
+    flex-grow: 1;
+}

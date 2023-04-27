@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    border: 1px solid;
+    grid-gap: 5px;
+    
+    /* grid-template-columns: 200px 80px auto;
+    grid-template-rows: 100px 50px 250px; */
+
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 3fr 1fr 2fr;
+}
+.box{
+    
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.box:nth-child(odd){
+    background-color: teal;
+}
+.box:nth-child(even){
+    background-color: maroon;
+}

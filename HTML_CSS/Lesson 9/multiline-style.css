@@ -1,0 +1,47 @@
+.container{
+    margin: 0 auto;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    /* display */
+    display: flex;
+
+    /*flex-wrap*/
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+}
+.first{
+    background-color: blueviolet;
+}
+.second{
+    background-color: rgb(128, 201, 45);
+}
+.third{
+    background-color: turquoise;
+}
+.fourth{
+    background-color: tomato;
+}
+.fifth{
+    background-color: blueviolet;
+}
+.sixth{
+    background-color: rgb(128, 201, 45);
+}
+.seventh{
+    background-color: turquoise;
+}
+.eighth{
+    background-color: tomato;
+}

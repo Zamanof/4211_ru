@@ -1,0 +1,32 @@
+.container{
+    width: 1000px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+}
+
+.box{
+    /* height: 250px; */
+
+}
+
+.first{
+    background-color: blueviolet;
+    flex-shrink: 2;
+}
+.second{
+    background-color: rgb(128, 201, 45);
+    flex-shrink: 1;
+}
+.third{
+    background-color: turquoise;
+    flex-shrink: 2;
+}
+.fourth{
+    background-color: tomato;
+    flex-shrink: 1;
+}
+.fifth{
+    background-color: black;
+    flex-shrink: 1;
+}
