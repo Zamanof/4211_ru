@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    position: relative;
+    height: 2000px;
+}
+
+div{
+    position: absolute;
+    background: red;
+    width: 100px;
+    height: 100px;
+
+}
