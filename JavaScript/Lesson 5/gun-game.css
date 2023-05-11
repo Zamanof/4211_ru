@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+#gun, #bullet, #target{
+    position: absolute;
+}
+
+#gun{
+    width: 100px;
+    height: 50px;
+    top: 70px;
+    left: 0;
+    background-color: black;
+}
+#bullet, #target{
+    border-radius: 50%;
+}
+#bullet{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    left: 50px;
+    top: 70px;
+    z-index: -1;
+}
+
+#target{
+    width: 140px;
+    height: 140px;
+    left: 500px;
+    top: 20px;
+    background-color: #8e44ad;
+}

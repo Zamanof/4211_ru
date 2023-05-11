@@ -5,8 +5,6 @@ myDiv.addEventListener("mousemove",
         info.innerText = `x = ${e.pageX}  y = ${e.pageY}`
 
 })
-
-
 myDiv.addEventListener("mouseenter",
     (e)=>{
         myDiv.style.background = "red";
