@@ -22,7 +22,7 @@ let target = {
 }
 
 
-getDistance = (e, target)=>{
+getDistance = (e)=>{
     const diffX = e.offsetX - target.x;
     const diffY = e.offsetY - target.y;
     return Math.hypot(diffX, diffY)
@@ -57,7 +57,7 @@ getColor = (distance)=>{
 
 map.onclick = (e)=>{
     count++;
-    let dst = getDistance(e, target);
+    let dst = getDistance(e);
     let dstHint = getDistanceHint(dst);
     distance.innerText = dstHint;
     distance.style.color = getColor(dst)
