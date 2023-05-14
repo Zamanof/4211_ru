@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#map{
+    width:700px;
+}
+#distance{
+    font-size: 35px;
+}
