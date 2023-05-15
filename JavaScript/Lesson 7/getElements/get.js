@@ -4,6 +4,7 @@
 // getElementById()
 
 
+// querySelector()
 // querySelectorAll()
 // * - all elements
 // P - all p tags
