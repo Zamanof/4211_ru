@@ -10,8 +10,7 @@ getDOMTree = ()=>{
             n = 1
             for (let j = 0; j < nodes.length; j++){
                 if(nodes[j].nodeName === '#text') continue
-                txt += `- ${n++}. ${nodes[j].nodeName}
-        `
+                txt += `- ${n++}. ${nodes[j].nodeName}        `
             }
         }
     }
