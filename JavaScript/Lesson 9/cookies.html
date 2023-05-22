@@ -1,0 +1,97 @@
+<!-- для проверки запустите это в https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+
+<!--<body>-->
+<!--&lt;!&ndash; <p id="info"></p> &ndash;&gt;-->
+<!--<script>-->
+<!--    /*-->
+<!--    infoP = document.getElementById("info")-->
+<!--    document.cookie = "registered=Moguda; path=/; expires=Fri, 19 May 12:30:40 GMT;"-->
+<!--    document.cookie = "lesson=JS; company=Step;"-->
+<!--    infoP.innerText= document.cookie;-->
+<!--    */-->
+
+
+<!--</script>-->
+
+<!--</body>-->
+
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+
+<!--<body onload="regCheck()">-->
+<!--<div id="reg"></div>-->
+
+<!--<script>-->
+<!--    const regCheck = ()=>{-->
+<!--        document.cookie = "lesson=JS;"-->
+<!--        let myCookie = document.cookie;-->
+<!--        let reg = document.getElementById("reg")-->
+<!--        let cookieAttributes = myCookie.split('; ')-->
+
+<!--        let cookieObj = {};-->
+<!--        let atrib;-->
+<!--        let msg = ''-->
+<!--        for(let i=0; i < cookieAttributes.length; i++){-->
+<!--            attrib = cookieAttributes[i].split('=');-->
+<!--            cookieObj[attrib[0]] = attrib[1];-->
+<!--            msg += `${attrib[0]} : ${attrib[1]} <br/>`-->
+
+<!--        }-->
+
+<!--        reg.innerHTML = `<b>${cookieObj["lesson"]}</b>`-->
+<!--    }-->
+
+
+<!--</script>-->
+<!--</body>-->
+
+<!--</html>-->
+
+
+<!DOCTYPE html>
+<html>
+
+<body onload="regCheck()">
+<div id="reg"></div>
+
+<script>
+    const regCheck = ()=>{
+        let myCookie = document.cookie;
+        let reg = document.getElementById("reg")
+        let cookieAttributes = myCookie.split('; ')
+
+        let cookieObj = {};
+        let atrib;
+        let msg = ''
+        for(let i=0; i < cookieAttributes.length; i++){
+            attrib = cookieAttributes[i].split('=');
+            cookieObj[attrib[0]] = attrib[1];
+        }
+
+        if ("username" in cookieObj){
+            reg.innerHTML = `Welcome ${cookieObj["username"]}.`
+        }
+        else{
+            reg.innerHTML = "Name: <input type='text' id='user'/> <input type='button' value='Register' onclick = 'checkClick()'/>"
+        }
+    }
+
+    const checkClick = ()=>{
+        let user = document.getElementById('user')
+        let name = user.value
+        let expireDate = new Date()
+        expireDate.setTime((new Date()).getTime() + 30 * 1000)
+        document.cookie = `username=${name}; expires=${expireDate.toGMTString()}; path=/`
+        regCheck()
+    }
+
+
+</script>
+</body>
+
+</h
