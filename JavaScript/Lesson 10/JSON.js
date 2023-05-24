@@ -79,4 +79,3 @@
 //
 // console.log(newStudent["isOld"])
 
-
