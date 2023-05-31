@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Books</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--	Owl Carousel CSS-file from Local Folder -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/book-style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body id="top">
+	<div id="newsletter" class="popup-wrapper">
+		<div class="popup-inner">
+			<span class="popup-close">&times;</span>
+			<div class="subscribe-image">
+				<img src="https://source.unsplash.com/S3nUOqDmUvc/400x350" class="img-fluid">
+			</div>
+			<div class="subscribe-content">
+				<h2 class="">Newsletter</h2>
+				<p>Join over 1,000 people who get free and fresh content delivered automatically each time we publish</p>
+				<div class="form-group subscribe-form-group">
+					<form class="">
+						<input class="form-input" type="email" name="newsletter-email" id="Email" value="" placeholder="email@example.com">
+						<button type="submit" class="btn btn-dark" name="subscribe-newsletter" id="Subscribe">Subscribe</button>
+						<p><label><input id="forgetMe" type="checkbox" name="forgetMe"> Don't show this again</label></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="thanks-contact" class="popup-wrapper">
+		<div class="popup-inner">
+			<span class="popup-close">&times;</span>
+			<div class="contact-image">
+				<img src="https://source.unsplash.com/idhx-MOCDSk/300x250" alt="Letter"class="img-fluid">
+			</div>
+			<div class="px-20">
+				<h3>Thank you!</h3>
+				<p>Our managers will contact you soon.</p>
+				<p class="content"></p>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+
+				<div class="column logo">
+					<img width="80" alt="Logo" src="images/logo.png">
+
+				</div>
+				<div class="column text-animate">
+					<button id="start-stop">!</button><span id="text-change"></span>
+				</div>
+				<div class="column">
+					<div id="humburger">&equiv;</div>
+					<ul class="menu row">
+						<li><a href="#about" class="active">About Us</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#books">Books</a></li>
+						<li><a href="#contacts">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="column-half">
+					<img src="https://source.unsplash.com/HH4WBGNyltc/600x750" alt="Welcome to Books online library" class="img-fluid">
+				</div>
+				<div class="column-half">
+					<h2 class="line">Welcome to Books online library!</h2>
+					<p>Eposi provide how all this mistaken idea of denouncing pleasure and sing pain was born an will give you a complete account of the system, and expound the actual teachings of the eat explorer of the truth, the mer of human.</p>
+					<div class="promo">We are the best online Library at 2021</div>
+					<div class="accordion">
+						<h3 class="accordion-header active">Our books</h3>
+						<div class="accordion-text active">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est architecto sit omnis enim reprehenderit, placeat illo, corporis, repellat temporibus error debitis reiciendis aut vel repudiandae eaque. Deserunt quidem accusantium natus!</div>
+						<h3 class="accordion-header">Our mission</h3>
+						<div class="accordion-text">Alias illo quisquam culpa architecto voluptatem facilis, ratione dolorum asperiores ut repellat sed, nobis cumque laboriosam! Voluptatum, maxime vel reiciendis amet accusantium eos. Iure, magnam delectus debitis molestiae animi saepe.</div>
+						<h3 class="accordion-header">Our message</h3>
+						<div class="accordion-text">Eveniet consectetur sed eos modi dolorem dolore, itaque molestiae a adipisci ab quas voluptates corporis corrupti temporibus, animi excepturi sunt amet repellat ducimus deleniti fuga inventore dicta tempore! Atque, ullam?</div>
+						<h3 class="accordion-header">Our Vision</h3>
+						<div class="accordion-text">Laborum dolorem suscipit repellendus harum quod vel ipsam, ut accusantium, possimus dolores dignissimos quibusdam rem ducimus? Vitae fugiat commodi ut porro, esse nam perferendis id veritatis voluptatem, dolores aliquid ipsam!</div>
+						<h3 class="accordion-header">Our Library</h3>
+						<div class="accordion-text">Repudiandae qui optio non ad quisquam, reiciendis aperiam necessitatibus sit fuga reprehenderit. You can find <a href="https://openlibrary.org/subjects" target="_blank">all subjects here</a>. Temporibus expedita recusandae consequatur, voluptate rem tempore, eos iste debitis saepe ut quidem natus unde ad voluptas odio.</div>
+						<h3 class="accordion-header">Our Book API</h3>
+						<div class="accordion-text">Labore nihil aperiam vero, fuga molestias, fugit veritatis dolorem saepe explicabo, quasi nulla <a href="https://openlibrary.org/developers/api">see the API</a>. You can pariatur incidunt cum neque, veniam nobis minima dolorum dolore fugiat maiores vero architecto, officiis provident?</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="testimonials">
+		<div class="container">
+			<h2 class="line">Our customers testimonials</h2>
+			<div id="customers-testimonials" class="owl-carousel">
+				<div class="item">
+					<div class="shadow-effect">
+						<img src="https://source.unsplash.com/JyVcAIUAcPM/150x150" alt="John Doe" class="testimonial-img">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officia consectetur quas voluptatem sunt ad corrupti quo eligendi ipsa reprehenderit, cumque tempora aut temporibus nostrum, adipisci nemo optio. Officiis, animi.</p>
+					</div>
+					<div class="testimonial-name">John Doe</div>
+				</div>
+				<div class="item">
+					<div class="shadow-effect">
+						<img src="https://source.unsplash.com/15Vb4B_ma_s/150x150" alt="Anna Traube" class="testimonial-img">
+						<p>Quasi sequi ea, aliquid quo iure voluptates fugiat eius a, corrupti beatae ducimus ullam voluptatem. Dolorum quibusdam iste sint. Voluptatibus quasi alias porro veritatis laborum nihil asperiores dicta consequatur, repellat.</p>
+					</div>
+					<div class="testimonial-name">Anna Traube</div>
+				</div>
+				<div class="item">
+					<div class="shadow-effect">
+						<img src="https://source.unsplash.com/jmURdhtm7Ng/150x150" alt="Martin King" class="testimonial-img">
+						<p>Maxime quas distinctio ratione voluptatibus sit nobis eveniet optio! Rem blanditiis, asperiores atque dolorem numquam eius natus ipsam mollitia fugit ipsum nostrum ea inventore repellendus, iure, doloribus repellat porro assumenda!</p>
+					</div>
+					<div class="testimonial-name">Martin King</div>
+				</div>
+				<div class="item">
+					<div class="shadow-effect">
+						<img src="https://source.unsplash.com/DLKR_x3T_7s/150x150" alt="Dina Sparrow" class="testimonial-img">
+						<p>Et saepe, illum molestias. Quia provident ex labore quae eveniet at, voluptatem ducimus dicta ea temporibus, tenetur ipsa iste fugiat qui nemo veniam ipsum blanditiis ullam dolor cupiditate eos aliquid.</p>
+					</div>
+					<div class="testimonial-name">Dina Sparrow</div>
+				</div>
+				<div class="item">
+					<div class="shadow-effect">
+						<img src="https://source.unsplash.com/xDyqR14KyAs/150x150" alt="Mila Blake" class="testimonial-img">
+						<p>Maiores laboriosam laudantium laborum obcaecati nam iure alias nobis, architecto. Quos magni quisquam et quas ab, ex magnam tempora ea accusantium natus nam voluptatem, totam, suscipit harum sunt nostrum ad.</p>
+					</div>
+					<div class="testimonial-name">Mila Blake</div>
+				</div>
+			</div>
+			<!--/.owl-carousel-->
+		</div>
+	</section>
+	<section id="books">
+		<div class="container">
+			<h2 class="line">Books</h2>
+			<div class="categories text-center">
+				<a href="https://openlibrary.org/subjects/mystery_and_detective_stories" class="cat-link active">Mistery, Detective</a>
+				<a href="https://openlibrary.org/subjects/romance" class="cat-link">Romance</a>
+				<a href="https://openlibrary.org/subjects/poetry" class="cat-link">Poetry</a>
+				<a href="https://openlibrary.org/subjects/fantasy" class="cat-link">Fantasy</a>
+			</div>
+			<div class="loader">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div class="row books"></div>
+		</div>
+	</section>
+	<section id="subscribe" class="text-center">
+		<h2>Subscribe to our newsletter</h2>
+		<p>Signup for our newsletter to get the latest news and books.</p>
+		<div class="my-40">
+			<button class="btn btn-info btn-large" data-popup="#newsletter">Subscribe Now</button>
+		</div>
+	</section>
+	<section id="contacts">
+		<div class="container">
+			<h2 class="line">Contact Us</h2>
+			<p>Write us a letter. We're in touch.</p>
+			<form id="contact-form">
+				<div class="row">
+					<div class="column-half">
+						<input type="text" id="user-name" name="user-name" class="form-input" placeholder="Your name*">
+						<input type="text" id="user-subject" name="user-subject" class="form-input" placeholder="Subject">
+					</div>
+					<div class="column-half">
+						<input type="email" id="user-email"  name="user-email" class="form-input" placeholder="Your email*">
+						<input type="tel" id="user-phone"  name="user-phone" class="form-input" placeholder="Your phone*">
+					</div>
+				</div>
+				<textarea name="user-message" id="user-message" rows="10" class="form-input" placeholder="Your message*"></textarea>
+				<p>* All fields are required</p>
+				<button type="submit" id="contact-btn" class="btn btn-dark">Send a letter</button>
+				
+			</form>
+		</div>
+	</section>
+	<section id="see-more" class="closed">
+		<span class="close-green">&#9650;</span>
+		<div class="container">
+			<h2 class="line">Check out our most-read books!</h2>
+			<div class="row">
+				<div class="book">
+					<img src="https://covers.openlibrary.org/b/id/8044459-L.jpg" alt="Harry Potter" width="200">
+					<div class="book-hidden">
+						<a href="https://openlibrary.org/works/OL25929351M" class="btn btn-info" target="_blank">More Info</a>
+						<a href="https://openlibrary.org/borrow/ia/hpmor?ref=ol" class="btn btn-read" target="_blank">Read Book</a>
+					</div>
+				</div>
+				<div class="column-2-of-3">
+					<h3>Harry Potter and the Methods of Rationality</h3>
+					<p>
+						By <a href="https://openlibrary.org/authors/OL7288845A/Eliezer_Yudkowsky" itemprop="author">Eliezer Yudkowsky</a>
+					</p>
+					<p>In this alternative version of J.K. Rowling's famous tale, Petunia Evans marries the biochemist Michael Verres. The couple adopts her orphaned nephew. Christened "Harry James Potter-Evans-Verres," he is raised in an environment of science, knowledge, and rationality. Upon discovering</p>
+
+					<button class="btn btn-dark" id="not-now">I don't wanna read it now.</button>
+					<button class="btn btn-read" id="readers-plus" data-num="1024">That's great!</button><span id="num-of-readers"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<img width="70" alt="Logo" src="images/logo.png">
+			<p>Books Online Library | <span id="date-now"></span> | All rights reserved.</p>
+			<a href="#top" id="totop">&#9650;</a>
+		</div>
+	</footer>
+	<!-- JQuery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+<!--	Owl Carousel JS-file from local folder -->
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>

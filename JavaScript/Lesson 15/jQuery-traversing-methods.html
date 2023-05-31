@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Traversing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <article>
+    <h1 class="text-center">jQuery Traversing</h1>
+      <div class="container">
+        <div class="main">
+          <form name="domControl" id="domControl">
+            <div class="row">
+                <label for="add"><input type="radio" name="traversing" id="add">add()</label>
+                <label for="addBack"><input type="radio" name="traversing" id="addBack">addBack()</label>
+                <label for="children"><input type="radio" name="traversing" id="children">children()</label>
+                <label for="contents"><input type="radio" name="traversing" id="contents">contents()</label>
+                <label for="filter"><input type="radio" name="traversing" id="filter">filter()</label>
+                <label for="find"><input type="radio" name="traversing" id="find">find()</label>
+                <label for="end"><input type="radio" name="traversing" id="end">end()</label>
+                <label for="closest"><input type="radio" name="traversing" id="closest">closest()</label>
+                <label for="parent"><input type="radio" name="traversing" id="parent">parent()</label>
+                <label for="parents"><input type="radio" name="traversing" id="parents">parents()</label>
+                <label for="parentsUntil"><input type="radio" name="traversing"
+                        id="parentsUntil">parentsUntil()</label>
+                <label for="offsetParent"><input type="radio" name="traversing"
+                        id="offsetParent">offsetParent()</label>
+                <label for="next"><input type="radio" name="traversing" id="next">next()</label>
+                <label for="nextAll"><input type="radio" name="traversing" id="nextAll">nextAll()</label>
+                <label for="nextUntil"><input type="radio" name="traversing" id="nextUntil">nextUntil()</label>
+                <label for="prev"><input type="radio" name="traversing" id="prev">prev()</label>
+                <label for="prevAll"><input type="radio" name="traversing" id="prevAll">prevAll()</label>
+                <label for="prevUntil"><input type="radio" name="traversing" id="prevUntil">prevUntil()</label>
+                <label for="first"><input type="radio" name="traversing" id="first">first()</label>
+                <label for="last"><input type="radio" name="traversing" id="last">last()</label>
+                <label for="siblings"><input type="radio" name="traversing" id="siblings">siblings()</label>
+                <label for="slice"><input type="radio" name="traversing" id="slice">slice()</label>
+                <label for="has"><input type="radio" name="traversing" id="has">has()</label>
+                <label for="is"><input type="radio" name="traversing" id="is">is()</label>
+                <label for="each"><input type="radio" name="traversing" id="each">each()</label>
+                <label for="map"><input type="radio" name="traversing" id="map">map()</label>
+                <label for="eq"><input type="radio" name="traversing" id="eq">eq()</label>
+                <label for="not"><input type="radio" name="traversing" id="not">not()</label>
+                <label for="wrap"><input type="radio" name="traversing" id="wrap">wrap()</label>
+                <label for="wrapAll"><input type="radio" name="traversing" id="wrapAll">wrapAll()</label>
+                <label for="Reset-styles"><input type="radio" name="traversing" id="Reset-styles">Reset styles</label>
+            </div>
+          </form>
+       </div>
+    </div>
+    <div class="container related">
+        <div class="row column-content">
+            <div class="column">
+                <h3>Column 1</h3>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sequi eligendi iste magni.</p>
+                <p>Dolorem illo nostrum vel. Explicabo alias vel placeat lorem quaerat quis praesentium!</p>
+                <p>Debitis assumenda magni, ad mollitia repellat consequuntur eveniet molestiae nisi similique!</p>
+                <img src="https://source.unsplash.com/dqMxDqdhg_4/500x300" alt="Winter Forest"  class="img-responsive">
+            </div>
+            <div class="column">
+                <h3>Column 2</h3>
+                <p>Dolorem illo nostrum vel. Explicabo alias vel placeat lorem quaerat quis praesentium!</p>
+                <p class="text">Ab rem at delectus, praesentium minus harum modi incidunt autem eaque quis velit
+                    accusamus?</p>
+                <p>Pariatur cupiditate doloremque commodi omnis ipsam modi incidunt, explicabo provident.</p>
+                <img src="https://source.unsplash.com/5AiWn2U10cw/500x300" alt="Snowflake" class="img-responsive snow">
+            </div>
+            <div class="column column-selected">
+                <h3>Column 3</h3>
+                <p>Obcaecati voluptatibus amet esse at. Veniam accusamus, fugiat eligendi esse ullam architecto!</p>
+                <p>Pariatur cupiditate doloremque commodi omnis ipsam modi incidunt, explicabo provident.</p>
+                <p>Debitis assumenda magni, ad mollitia repellat consequuntur eveniet molestiae nisi similique!</p>
+                <img src="https://source.unsplash.com/5867BKGyCu4/500x300" alt="Like snow" class="img-responsive">
+            </div>
+            <div class="column">
+                <h3>Column 4</h3>
+                <p>Beatae harum quasi dolore voluptates amet veritatis minima cumque quos nemo? Consequuntur.</p>
+                <p>Illo nostrum vel. Explicabo alias consectetur vel placeat minima cumque quos nemo? Consequuntur.
+                </p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi facere provident
+                    voluptas!</p>
+                <img src="https://source.unsplash.com/_TuI8tZHlk4/500x300" alt="Winter street" class="img-responsive">
+            </div>
+            <div class="column">
+                <h3>Column 5</h3>
+                <p class="text">Illo nostrum vel. Explicabo alias consectetur vel placeat minima cumque quos nemo?
+                    Consequuntur.</p>
+                <p>Error facere adipisci voluptates quia facilis, deleniti, aliquam a totam suscipit consequatur?
+                </p>
+                <p>Cum dolorem perferendis iure possimus voluptatem similique mollitia repellat, ab omnis! Porro.
+                </p>
+                <img src="https://source.unsplash.com/xtIYGB0KEqc/500x300" alt="Winter snowball"  class="img-responsive snow">
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/traversing-methods.js"></script>
+</body>
+
+</html>

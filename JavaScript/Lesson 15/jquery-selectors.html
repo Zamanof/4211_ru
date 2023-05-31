@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Selectors</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section>
+<div class="text-center">
+	<img src="https://source.unsplash.com/ZS67i1HLllo/1600x400" alt="jQuery Selectors" class="img-responsive">
+</div>
+<h1 class="text-center">jQuery Selectors</h1>
+<div class="container">
+
+	<div class="main">
+		<form name="selectorsControl" id="selectorsControl">
+			<h2 class="text-center">CSS-selectors</h2>
+			<div class="row">
+				<label for="all"><input type="radio" name="selector" id="all">*</label>
+				<label for="id"><input type="radio" name="selector" id="id">#id</label>
+				<label for="classSelector"><input type="radio" name="selector" id="classSelector">.className</label>
+				<label for="tag"><input type="radio" name="selector" id="tag">tagName</label>
+				<label for="some-selectors"><input type="radio" name="selector" id="some-selectors">first, second, ...</label>
+				<label for="outer-inner"><input type="radio" name="selector" id="outer-inner">outer inner</label>
+				<label for="parent-child"><input type="radio" name="selector" id="parent-child">parent > child</label>
+				<label for="prev-next"><input type="radio" name="selector" id="prev-next">prev + next</label>
+				<label for="prev-za-next"><input type="radio" name="selector" id="prev-za-next">prev ~ next</label>
+				<label for="name"><input type="radio" name="selector" id="name">[name]</label>
+				<label for="name-value"><input type="radio" name="selector" id="name-value">[name = value]</label>
+				<label for="name-not-value"><input type="radio" name="selector" id="name-not-value">[name != value]</label>
+				<label for="name-start-value"><input type="radio" name="selector" id="name-start-value">[name ^= value]</label>
+				<label for="name-end-value"><input type="radio" name="selector" id="name-end-value">[name $= value]</label>
+				<label for="two-attr"><input type="radio" name="selector" id="two-attr">[first][second][...]</label>
+				<label for="first-child"><input type="radio" name="selector" id="first-child">:first-child</label>
+				<label for="last-child"><input type="radio" name="selector" id="last-child">:last-child</label>
+				<label for="nth-child"><input type="radio" name="selector" id="nth-child">:nth-child(2n+1)</label>
+				<label for="only-child"><input type="radio" name="selector" id="only-child">:only-child</label>
+				<label for="only-type"><input type="radio" name="selector" id="only-type">:only-of-type</label>
+				<label for="first-type"><input type="radio" name="selector" id="first-type">:first-of-type</label>
+				<label for="nth-last-type"><input type="radio" name="selector" id="nth-last-type">:nth-last-of-type(2)</label>
+				<label for="nth-type"><input type="radio" name="selector" id="nth-type">:nth-of-type(even)</label>
+			</div>
+		</form>
+		<form name="filtersControl" id="filtersControl">
+			<h2 class="text-center">jQuery-selectors(filters)</h2>
+			<div class="row">
+				<label for="first"><input type="radio" name="filter" id="first">:first</label>
+				<label for="last"><input type="radio" name="filter" id="last">:last</label>
+				<label for="not"><input type="radio" name="filter" id="not">:not(selector)</label>
+				<label for="even"><input type="radio" name="filter" id="even">:even</label>
+				<label for="odd"><input type="radio" name="filter" id="odd">:odd</label>
+				<label for="eq"><input type="radio" name="filter" id="eq">:eq(n)</label>
+				<label for="gt"><input type="radio" name="filter" id="gt">:gt()</label>
+				<label for="lt"><input type="radio" name="filter" id="lt">:lt()</label>
+
+				<label for="header"><input type="radio" name="filter" id="header">:header</label>
+				<label for="hidden"><input type="radio" name="filter" id="hidden">:hidden</label>
+				<label for="visible"><input type="radio" name="filter" id="visible">:visible</label>
+				<label for="root"><input type="radio" name="filter" id="root">:root</label>
+			</div>
+		</form>
+		<form name="filtersControl" id="filtersControl">
+			<h2 class="text-center">jQuery Form elements selectors (filters)</h2>
+			<div class="row">
+				<label for="button"><input type="radio" name="form" id="button">:button</label>
+				<label for="checkbox"><input type="radio" name="form" id="checkbox">:checkbox</label>
+				<label for="checked"><input type="radio" name="form" id="checked">:checked</label>
+				<label for="enabled"><input type="radio" name="form" id="enabled">:enabled</label>
+				<label for="disabled" class="disabled"><input type="radio" name="form" id="disabled" disabled>:disabled</label>
+				<label for="input"><input type="radio" name="form" id="input">:input</label>
+				<label for="radio"><input type="radio" name="form" id="radio">:radio</label>
+				<label for="submit"><input type="radio" name="form" id="submit">:submit</label>
+				<label for="reset"><input type="radio" name="form" id="reset">:reset</label>
+				<label for="text"><input type="radio" name="form" id="text">:text</label>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="container related">
+	<div class="row column-content">
+		<div class="column">
+			<h3>Column 1</h3>
+			<p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse sequi eligendi iste magni.</p>
+			<p>Dolorem illo nostrum vel. Explicabo alias vel placeat lorem quaerat quis praesentium!</p>
+			<p>Debitis assumenda magni, ad mollitia repellat consequuntur eveniet molestiae nisi similique!</p>
+			<img src="https://source.unsplash.com/eXw6CPGWwcg/500x300" alt="Tea" class="img-responsive">
+		</div>
+		<div class="column">
+			<h3>Column 2</h3>
+			<p>Dolorem illo nostrum vel. Explicabo alias vel placeat lorem quaerat quis praesentium!</p>
+			<p class="text">Ab rem at delectus, praesentium minus harum modi incidunt autem eaque quis velit accusamus?</p>
+			<p>Pariatur cupiditate doloremque commodi omnis ipsam modi incidunt, explicabo provident.</p>
+			<img src="https://source.unsplash.com/AZxyTjkz3-g/500x300" alt="Tea" class="img-responsive snow">
+		</div>
+		<div class="column">
+			<h3>Column 3</h3>
+			<p>Obcaecati voluptatibus amet esse at. Veniam accusamus, fugiat eligendi esse ullam architecto!</p>
+			<p class="text">Pariatur cupiditate doloremque commodi omnis ipsam modi incidunt, explicabo provident.</p>
+			<p>Debitis assumenda magni, ad mollitia repellat consequuntur eveniet molestiae nisi similique!</p>
+			<img src="https://source.unsplash.com/K3ymmfqBQzM/500x300" alt="Tea" class="img-responsive">
+		</div>
+		<div class="column">
+			<h3>Column 4</h3>
+			<p>Beatae harum quasi dolore voluptates amet veritatis minima cumque quos nemo? Consequuntur.</p>
+			<p>Illo nostrum vel. Explicabo alias consectetur vel placeat minima cumque quos nemo? Consequuntur.</p>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi facere provident voluptas!</p>
+			<img src="https://source.unsplash.com/m-gqDRzbJLQ/500x300" alt="Tea" class="img-responsive">
+		</div>
+		<div class="column">
+			<h3>Column 5</h3>
+			<p class="text">Illo nostrum vel. Explicabo alias consectetur vel placeat minima cumque quos nemo? Consequuntur.</p>
+			<p>Error facere adipisci voluptates quia facilis, deleniti, aliquam a totam suscipit consequatur?</p>
+			<p>Cum dolorem perferendis iure possimus voluptatem similique mollitia repellat, ab omnis! Porro.</p>
+			<img src="https://source.unsplash.com/OJZB0VUQKKc/500x300" alt="Tea" class="img-responsive">
+		</div>
+	</div>
+</div>
+</section>
+<section id="contacts">
+<div class="container">
+	<h2 class="text-center">Contact Form</h2>
+	<form id="contact-form">
+		<div class="row p-15"><label for="theme1"><input type="checkbox" name="theme[]" id="theme1" checked>Consultation</label>
+			<label for="theme2"><input type="checkbox" name="theme[]" id="theme2">Order</label>
+			<label for="theme3"><input type="checkbox" name="theme[]" id="theme3">Complaint</label>
+		</div>
+		<div class="row">
+			<div class="column-half">
+				<input type="text" name="username" id="username" placeholder="Your Name">
+				<input type="tel" name="userphone" id="userphone" placeholder="Your Phone">
+				<input type="tel" name="subject" id="subject" placeholder="Subject">
+			</div>
+			<div class="column-half">
+				<input type="email" name="useremail" id="useremail" placeholder="Your Email">
+				<textarea name="usermessage" id="usermessage" placeholder="Your Message"></textarea>
+			</div>
+		</div>
+		<input type="hidden" name="contacts" value="check1283">
+		<div class="hidden-block">Thank you. Our manager will contact you soon.</div>
+		<div class="text-center"><button class="btn">Submit</button> &nbsp; <button class="btn bg-gray" type="reset">Reset</button></div>
+	</form>
+</div>
+</section>
+<footer id="top-footer" class="text-center">
+See jQuery selectors <a href="https://api.jquery.com/category/selectors/">here</a>
+</footer>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/selectors.js"></script>
+</body></html>
