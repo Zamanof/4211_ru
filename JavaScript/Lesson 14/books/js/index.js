@@ -92,14 +92,15 @@ function stopAnimatedText(){
 setTimeout(function (e){
     let data = $("[data-popup]")
     popupShow(data)
-}, 10000)
+}, 3000)
 
 $("body").on("click", '[data-popup]', popupShow)
 
 function popupShow(e){
     console.log("Hello")
+
     e.preventDefault;
-    let id = $(e.data('popup'))
+    let id = $($("[data-popup]").data('popup'))
     id.fadeIn(600)
 }
 $('.popup-close').click(function (){
