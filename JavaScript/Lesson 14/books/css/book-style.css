@@ -161,7 +161,6 @@ a:hover {
 	color: #a6ce39;
 	overflow: hidden;
 }
-
 .accordion-header::before {
 	content: '';
 	display: inline-block;
