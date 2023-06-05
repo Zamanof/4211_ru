@@ -1,0 +1,15 @@
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\bin\Debug\net6.0\miniHttpServer.exe
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\bin\Debug\net6.0\miniHttpServer.deps.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\bin\Debug\net6.0\miniHttpServer.runtimeconfig.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\bin\Debug\net6.0\miniHttpServer.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\bin\Debug\net6.0\miniHttpServer.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.csproj.AssemblyReference.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.AssemblyInfoInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.AssemblyInfo.cs
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.csproj.CoreCompileInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\refint\miniHttpServer.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\miniHttpServer.genruntimeconfig.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\miniHttpServer\obj\Debug\net6.0\ref\miniHttpServer.dll

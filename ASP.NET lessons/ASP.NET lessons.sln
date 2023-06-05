@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "miniHttpServer", "miniHttpServer\miniHttpServer.csproj", "{F35D17B2-CBCC-46EB-852D-37FD7CC96F7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP Intro", "ASP Intro", "{B197020D-729A-4237-8ACA-5A379BC2D132}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F35D17B2-CBCC-46EB-852D-37FD7CC96F7E} = {B197020D-729A-4237-8ACA-5A379BC2D132}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {933C4A23-6879-45D3-B673-3B3820847933}
