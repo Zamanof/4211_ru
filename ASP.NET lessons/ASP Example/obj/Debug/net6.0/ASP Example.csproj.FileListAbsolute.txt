@@ -1,0 +1,27 @@
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\appsettings.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\ASP Example.exe
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\ASP Example.deps.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\ASP Example.runtimeconfig.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\ASP Example.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\ASP Example.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.csproj.AssemblyReference.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.AssemblyInfoInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.AssemblyInfo.cs
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.csproj.CoreCompileInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\scopedcss\bundle\ASP Example.styles.css
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.csproj.CopyComplete
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\refint\ASP Example.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ASP Example.genruntimeconfig.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\ASP Example\obj\Debug\net6.0\ref\ASP Example.dll
