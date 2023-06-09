@@ -1,0 +1,15 @@
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\bin\Debug\net6.0\MyMiddlware.exe
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\bin\Debug\net6.0\MyMiddlware.deps.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\bin\Debug\net6.0\MyMiddlware.runtimeconfig.json
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\bin\Debug\net6.0\MyMiddlware.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\bin\Debug\net6.0\MyMiddlware.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.csproj.AssemblyReference.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.AssemblyInfoInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.AssemblyInfo.cs
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.csproj.CoreCompileInputs.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\refint\MyMiddlware.dll
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.pdb
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\MyMiddlware.genruntimeconfig.cache
+C:\Users\zamanov\WebstormProjects\4211_ru\ASP.NET lessons\MyMiddlware\obj\Debug\net6.0\ref\MyMiddlware.dll
