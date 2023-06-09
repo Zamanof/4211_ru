@@ -1,7 +1,7 @@
 ﻿
 class CheckerDirector
 {
-    public ICheckerBuilder Builder { get; set; }
+    //public ICheckerBuilder Builder { get; set; }
     public bool MakeHumanChecker(Human human)
     {
         UserNameChecker userNameChecker = new();
