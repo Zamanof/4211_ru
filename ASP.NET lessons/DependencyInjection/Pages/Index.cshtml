@@ -1,0 +1,21 @@
+﻿@page
+@using DependencyInjection.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var products = ViewData["Products"] as IEnumerable<Product>;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    @if(products.Any())
+    {
+        @foreach(var product in products){
+            <div>@product.Name</div>
+        }
+    }
+    else{
+        <div>No Data</div>
+    }
+
+</div>
