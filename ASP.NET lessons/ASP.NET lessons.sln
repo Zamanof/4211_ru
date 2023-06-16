@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMiddlware", "MyMiddlware\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency injection", "Dependency injection", "{B30CFD07-5A7B-4AB3-AD9D-9A1657A72B0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3433B9FD-3754-44D5-AAB7-98334EC76ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3433B9FD-3754-44D5-AAB7-98334EC76ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor Page Intro", "Razor Page Intro\Razor Page Intro.csproj", "{215668F2-9311-401F-8591-11F3EFACDF0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3433B9FD-3754-44D5-AAB7-98334EC76ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3433B9FD-3754-44D5-AAB7-98334EC76ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3433B9FD-3754-44D5-AAB7-98334EC76ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215668F2-9311-401F-8591-11F3EFACDF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215668F2-9311-401F-8591-11F3EFACDF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215668F2-9311-401F-8591-11F3EFACDF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215668F2-9311-401F-8591-11F3EFACDF0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
