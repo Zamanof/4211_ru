@@ -2,9 +2,25 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    //var IM = new IndexModel();
+    var name = ViewData["Name"] as string;
+    var age = (int)ViewData["Age"]!;
 }
 
+@*@functions{
+    public string message(string text){
+        return text.ToUpper();
+    }
+}*@
 <div class="text-center">
     <h1 style=" color: green;">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @*<p>@message("salam")</p>
+    <p>@IM.foo("Hi")</p>*@
+    @if(name is not null){
+        <p>Name: @name Age: @age</p>
+    }
+    else{
+        <p>Name: Empty Age: @age</p>
+    }
+
 </div>
