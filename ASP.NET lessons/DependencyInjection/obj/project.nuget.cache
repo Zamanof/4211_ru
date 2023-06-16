@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/bWrJFtkoSrSKmo0U3CZkntsetWllicikexJ/tFmaK0jXmZzjKDH/1+kg7IXbSX9M1Za0Lxb0hYEE5Bxmeu/Ew==",
+  "dgSpecHash": "tuiyZAOdWdL5ihsoERma676Na4gj12bahbsJmB/j9iUs1zeeYMaRa3cPV1eM0SD/AJrhXUPWNa9pNiMowI8hDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zamanov\\WebstormProjects\\4211_ru\\ASP.NET lessons\\DependencyInjection\\DependencyInjection.csproj",
+  "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\DependencyInjection\\DependencyInjection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
