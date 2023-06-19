@@ -1,0 +1,33 @@
+﻿@page "/products/productId/{id}"
+@model RazorPage_part2.Pages.ProductModel
+
+@if(Model.Product is null){
+    <h3>No data</h3>
+}
+else{
+    <h3>Product</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>Count</td>
+                <td>Available</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>@Model.Product.Id</td>
+                <td>@Model.Product.Name</td>
+                <td>@Model.Product.Description</td>
+                <td>@Model.Product.Price</td>
+                <td>@Model.Product.Count</td>
+                <td>@Model.Product.Available</td>
+            </tr>
+        </tbody>
+
+    </table>
+}

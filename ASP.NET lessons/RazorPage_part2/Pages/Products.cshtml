@@ -1,0 +1,16 @@
+﻿@page
+@model RazorPage_part2.Pages.ProductsModel
+
+@if(!Model.Products.Any()){
+    <h3>No Data</h3>
+}
+else{
+    <h3>Products</h3>
+    @foreach(var product in Model.Products.ToList()){
+        <p>
+            <a href="products/productId/@product.Id">
+                @product.Name
+            </a>
+        </p>
+    }
+}

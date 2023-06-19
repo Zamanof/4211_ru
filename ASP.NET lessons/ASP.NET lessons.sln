@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "miniHttpServer", "miniHttpServer\miniHttpServer.csproj", "{F35D17B2-CBCC-46EB-852D-37FD7CC96F7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP Intro", "ASP Intro", "{B197020D-729A-4237-8ACA-5A379BC2D132}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. ASP Intro", "01. ASP Intro", "{B197020D-729A-4237-8ACA-5A379BC2D132}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoR_midleware", "CoR_midleware", "{D3008D24-4D5C-4D3C-9C77-8F4AF9613533}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. CoR_midleware", "02. CoR_midleware", "{D3008D24-4D5C-4D3C-9C77-8F4AF9613533}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP Example", "ASP Example\ASP Example.csproj", "{93FAEF41-7C20-484B-999D-3C8BEF945469}"
 EndProject
@@ -17,11 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMiddlware", "MyMiddlware\MyMiddlware.csproj", "{63C029BA-5BC4-4E9E-80E3-4AD907DA1A96}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency injection", "Dependency injection", "{B30CFD07-5A7B-4AB3-AD9D-9A1657A72B0F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Dependency injection", "03. Dependency injection", "{B30CFD07-5A7B-4AB3-AD9D-9A1657A72B0F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{3433B9FD-3754-44D5-AAB7-98334EC76ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor Page Intro", "Razor Page Intro\Razor Page Intro.csproj", "{215668F2-9311-401F-8591-11F3EFACDF0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor Page Intro", "Razor Page Intro\Razor Page Intro.csproj", "{215668F2-9311-401F-8591-11F3EFACDF0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Razor page intro", "04. Razor page intro", "{B83FAA66-7F1E-42EE-8991-C88159FFB4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Razor page part 2", "05. Razor page part 2", "{EDFEF7FB-8B82-4C83-A8FA-8E29F9172DDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPage_part2", "RazorPage_part2\RazorPage_part2.csproj", "{377010DC-65F5-4AAE-84A2-C04DF16DD452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,10 @@ Global
 		{215668F2-9311-401F-8591-11F3EFACDF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215668F2-9311-401F-8591-11F3EFACDF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215668F2-9311-401F-8591-11F3EFACDF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377010DC-65F5-4AAE-84A2-C04DF16DD452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377010DC-65F5-4AAE-84A2-C04DF16DD452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377010DC-65F5-4AAE-84A2-C04DF16DD452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377010DC-65F5-4AAE-84A2-C04DF16DD452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +78,8 @@ Global
 		{625D08EE-9CD2-497A-B416-6F341ADD3CF3} = {D3008D24-4D5C-4D3C-9C77-8F4AF9613533}
 		{63C029BA-5BC4-4E9E-80E3-4AD907DA1A96} = {D3008D24-4D5C-4D3C-9C77-8F4AF9613533}
 		{3433B9FD-3754-44D5-AAB7-98334EC76ED9} = {B30CFD07-5A7B-4AB3-AD9D-9A1657A72B0F}
+		{215668F2-9311-401F-8591-11F3EFACDF0C} = {B83FAA66-7F1E-42EE-8991-C88159FFB4D9}
+		{377010DC-65F5-4AAE-84A2-C04DF16DD452} = {EDFEF7FB-8B82-4C83-A8FA-8E29F9172DDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {933C4A23-6879-45D3-B673-3B3820847933}
