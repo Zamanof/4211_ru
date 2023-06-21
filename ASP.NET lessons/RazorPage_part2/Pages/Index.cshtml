@@ -5,6 +5,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Add Product</h1>
+    <form method="post" asp-route="/">
+        <p>Name</p>
+        <p><input type="text" name="Name"/></p>
+        <p>Description</p>
+        <p><input type="text" name="Description" /></p>
+        <p>Count</p>
+        <p><input type="text" name="Count" /></p>
+        <p>Price</p>
+        <p><input type="text" name="Price" /></p>
+        <p><button type="submit">Add Product</button></p>
+    </form>
 </div>

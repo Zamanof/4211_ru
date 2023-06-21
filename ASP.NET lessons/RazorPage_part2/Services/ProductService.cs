@@ -26,4 +26,14 @@ public class ProductService
     {
         return Task.FromResult(_products.FirstOrDefault(p => p.Id == id));
     }
+
+   public Product AddProduct(Product product)
+    {
+        var faker = new Faker<Product>()
+            .RuleFor(p => p.Id, f => f.Random.Int(1));
+        product.Id = faker.Generate().Id;
+        if (product.Count > 0) product.Available = true;
+        _products.Add(product);
+        return product;
+    }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Ym9i5Ik73jD+XWSBe4xuoIbs9Uz9am04bQJFXS5Xyfdl/egCKvmhWHvQG6MSdKWDNQxlmSOdPcltUcvpLrjPw==",
+  "dgSpecHash": "hKk+YUTg4zT58+vTB9SstJH9L3kemSfGkZHPfpN5mTefPcEK/Hdsz6tY8Nq/2SEN1yH1FzRuAFKXILGV8eKDVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\ASP Example\\ASP Example.csproj",
+  "projectFilePath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\ASP Example\\ASP Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
