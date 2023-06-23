@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ASP.NET lessons"
+    "\\ASP.NET lessons",
+    "\\ASP.NET lessons\\RazorPage_part2",
+    "\\ASP.NET lessons\\RazorPage_part2\\Models",
+    "\\ASP.NET lessons\\RazorPage_part2\\Pages",
+    "\\ASP.NET lessons\\RazorPage_part2\\Services"
   ],
+  "SelectedNode": "\\ASP.NET lessons\\RazorPage_part2\\Pages\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<MVCIntro.Models.Product>
+
+@{
+    ViewData["Title"] = "Products Index";
+}
+
+<h1>Products</h1>
+<p>
+    <a asp-action="Create">Create</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=> model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.Price)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach ( var product in Model){
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(prod=>prod.Name)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(prod=>prod.Price)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
