@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEhJXo6rFlzOHhHDGkNKN+ir/gNJmYtTbaaN2Xiddfb3svGSe1q5XeUCLVzFWQHBn8OtkAmKG49tditep5RSSA==",
+  "dgSpecHash": "MQJIGYkvO1yDVit0eH1IjvOzB5NaeYF7QkEPzcInzpxjEBYOGSfnFQM0+V4OuMrIAjV7oHpQq8ThxaeaaUzx9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\RazorPage_part2\\RazorPage_part2.csproj",
+  "projectFilePath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\RazorPage_part2\\RazorPage_part2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zamanov\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
   ],

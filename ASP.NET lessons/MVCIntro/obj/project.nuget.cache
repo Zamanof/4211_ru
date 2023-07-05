@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEcKf6rYStC5GsAcOlwPCQseMuC9G+W2Sm4TCeC/VEQxYRDCbQYfwqfzlVD/GZ6ki5QfIW0W8U+sClHIUoigQA==",
+  "dgSpecHash": "ukNzhsJrqaMxt7ckrxHLAS2XsvcrS6y1yxvHrQRRuCSggvmxB6ges1/gXO7sLk8rLZjOK1N/QdbTTzPwLRa+fQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MVCIntro\\MVCIntro.csproj",
+  "projectFilePath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MVCIntro\\MVCIntro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.8\\microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",

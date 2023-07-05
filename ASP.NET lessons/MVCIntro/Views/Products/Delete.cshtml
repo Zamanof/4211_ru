@@ -1,0 +1,26 @@
+﻿@model MVCIntro.Models.Product
+@{
+    ViewData["Title"] = "Product Delete";
+}
+<h1>Delete</h1>
+<h3>Are you sure want to delete this product?</h3>
+<h1>Product</h1>
+<dl>
+    <dt>
+        @Html.DisplayNameFor(product=>product.Name)
+    </dt>
+    <dd>
+        @Html.DisplayFor(product=>product.Name)
+    </dd>
+    <dt>
+        @Html.DisplayNameFor(product=>product.Price)
+    </dt>
+    <dd>
+        @Html.DisplayFor(product=>product.Price)
+    </dd>
+</dl>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id"/>
+    <input type="submit" value="Delete"/>
+</form>
+<a asp-action="Index">Back to product list</a>

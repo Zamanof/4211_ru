@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using MVCIntro.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<WebAppMVCContext>(options =>
+    options.UseInMemoryDatabase("productDB"));
 
 var app = builder.Build();
 

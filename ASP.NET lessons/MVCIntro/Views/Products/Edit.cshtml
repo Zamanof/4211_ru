@@ -1,0 +1,25 @@
+﻿@model MVCIntro.Models.Product
+@{
+    ViewData["Title"] = "Product Edit";
+}
+
+<h1>Edit Product</h1>
+<div>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id"/>
+        <p>
+            <label asp-for="Name"></label>
+            <br />
+            <input asp-for="Name" />
+        </p>
+        <p>
+            <label asp-for="Price"></label>
+            <br />
+            <input asp-for="Price" />
+        </p>
+        <p>
+            <input type="submit" value="Edit" />
+        </p>
+    </form>
+    <a asp-action="Index">Back to product list</a>
+</div>

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj": {}
+    "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj": {
+    "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj",
+        "projectUniqueName": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj",
         "projectName": "Razor Page Intro",
-        "projectPath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj",
+        "projectPath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\Razor Page Intro.csproj",
         "packagesPath": "C:\\Users\\zamanov\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\Razor Page Intro\\obj\\",
         "projectStyle": "PackageReference",

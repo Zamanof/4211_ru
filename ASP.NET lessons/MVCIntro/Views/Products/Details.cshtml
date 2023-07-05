@@ -1,0 +1,23 @@
+﻿@model MVCIntro.Models.Product
+@{
+    ViewData["Title"] = "Product Details";
+}
+<h1>Details</h1>
+<dl>
+    <dt>
+        @Html.DisplayNameFor(product=>product.Name)
+    </dt>
+    <dd>
+        @Html.DisplayFor(product=>product.Name)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(product=>product.Price)
+    </dt>
+    <dd>
+        @Html.DisplayFor(product=>product.Price)
+    </dd>
+</dl>
+
+<a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+<a asp-action="Index">Back to product list</a>
