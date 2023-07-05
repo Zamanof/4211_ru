@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HTML_Helpers/1.0.0": {
+        "runtime": {
+          "HTML_Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HTML_Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
