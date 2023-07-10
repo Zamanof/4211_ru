@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\MyMiddlware.csproj",
+      "projectUniqueName": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\MyMiddlware.csproj",
       "projectName": "MyMiddlware",
-      "projectPath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\MyMiddlware.csproj",
+      "projectPath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\MyMiddlware.csproj",
       "packagesPath": "C:\\Users\\zamanov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\obj\\",
+      "outputPath": "C:\\Users\\zamanov\\Source\\Repos\\Zamanof\\4211_ru\\ASP.NET lessons\\MyMiddlware\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
