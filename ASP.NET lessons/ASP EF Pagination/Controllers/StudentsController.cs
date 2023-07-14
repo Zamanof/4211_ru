@@ -19,10 +19,49 @@ namespace ASP_EF_Pagination.Controllers
         }
 
         // GET: Students
-        public async Task<IActionResult> Index(int page = 1,int pageSize=4)
+        public async Task<IActionResult> Index(
+            int page = 1,
+            int pageSize=4,
+            string nameFilter = null,
+            string lastNameFilter = null,
+            string orderingBy = "Name",
+            string orderingDirection = "asc")
         {
-            var count = await _context.Student.CountAsync();
-            var data = await _context.Student
+
+            IQueryable<Student> studentsQuery = _context.Student;
+
+            // Filtering
+            if (!string.IsNullOrWhiteSpace(nameFilter))
+            {
+                studentsQuery = studentsQuery.Where(s => s.Name.Contains(nameFilter));
+            }
+            if (!string.IsNullOrWhiteSpace(lastNameFilter))
+            {
+                studentsQuery = studentsQuery.Where(s => s.LastName.Contains(lastNameFilter));
+            }
+
+            // ordering
+            if (orderingDirection == "asc")
+            {
+                studentsQuery = orderingBy switch
+                {
+                    "Name" => studentsQuery.OrderBy(s=>s.Name),
+                    "LastName" => studentsQuery.OrderBy(s=>s.LastName),
+                    _=>studentsQuery
+                };
+            }
+            else if (orderingDirection == "desc")
+            {
+                studentsQuery = orderingBy switch
+                {
+                    "Name" => studentsQuery.OrderByDescending(s => s.Name),
+                    "LastName" => studentsQuery.OrderByDescending(s => s.LastName),
+                    _ => studentsQuery
+                };
+            }
+
+            var count = await studentsQuery.CountAsync();
+            var data = await studentsQuery
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();

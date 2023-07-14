@@ -9,6 +9,25 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+        Students per page
+    </button>
+    <ul class="dropdown-menu">
+        @for (int i = 1; i <= 20; i++)
+        {
+            <li>
+                <a class="dropdown-item"
+                    href="/Students?page=1&pagesize=@i">
+                    @i
+                </a>
+            </li>
+        }
+    </ul>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -22,20 +41,55 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Items) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+<br />
+<br />
+@*<ul>
+    @for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        <li>
+            <a href="/Students?page=@i&pagesize=@Model.PageSize">
+                @i
+            </a>
+        </li>
+    }
+</ul>*@
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            @if (@i == Model.Page)
+            {
+                <li class="page-item active">
+                    <a class="page-link "
+               href="/Students?page=@i&pagesize=@Model.PageSize">@i</a>
+                </li>
+            }
+            else
+            {
+                <li class="page-item">
+                    <a class="page-link"
+               href="/Students?page=@i&pagesize=@Model.PageSize">@i</a>
+                </li>
+            }
+        }
+    </ul>
+</nav>
