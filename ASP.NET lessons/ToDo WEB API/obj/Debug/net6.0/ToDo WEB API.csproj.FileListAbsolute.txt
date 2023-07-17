@@ -1,0 +1,27 @@
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\appsettings.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.exe
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.deps.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.runtimeconfig.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.pdb
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.AssemblyReference.cache
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.AssemblyInfoInputs.cache
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.AssemblyInfo.cs
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.CoreCompileInputs.cache
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\scopedcss\bundle\ToDo WEB API.styles.css
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.CopyComplete
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\refint\ToDo WEB API.dll
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.pdb
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.genruntimeconfig.cache
+C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ref\ToDo WEB API.dll
