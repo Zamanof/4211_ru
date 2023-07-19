@@ -1,4 +1,6 @@
+using ToDo_WEB_API.Data;
 using ToDo_WEB_API.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +11,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ITodoService, TodoService>();
+builder.Services.AddDbContext<ToDoDbContext>(
+    options =>
+       {
+           options.UseSqlServer(builder.Configuration.GetConnectionString("TODO_DBContext"));
+       }
+    );
+
+builder.Services.AddSingleton<ITodoService, TodoService>();
 
 var app = builder.Build();
 
