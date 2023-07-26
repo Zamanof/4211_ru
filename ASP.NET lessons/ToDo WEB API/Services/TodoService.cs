@@ -1,5 +1,7 @@
-﻿using ToDo_WEB_API.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using ToDo_WEB_API.Data;
 using ToDo_WEB_API.DTOs;
+using ToDo_WEB_API.DTOs.Pagination;
 using ToDo_WEB_API.Models;
 
 namespace ToDo_WEB_API.Services;
@@ -54,12 +56,36 @@ public class TodoService : ITodoService
             null;
     }
 
-    public Task<IEnumerable<ToDoItemDto>> GetToDoItemsAsync()
+    public async Task<PaginationListDto<ToDoItemDto>> GetToDoItemsAsync(
+        int page,
+        int pageSize,
+        string? search,
+        bool? isCompleted
+        )
     {
-        var items = _dbContext.ToDoItems.ToList();
-        return Task.FromResult(
-            items.Select(item =>
-            ConvertToDoItemDto(item)));
+        IQueryable<ToDoItem> query = _dbContext.ToDoItems;
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            query = query.Where(item => item.Text.Contains(search));
+        }
+
+        if (isCompleted.HasValue)
+        {
+            query = query.Where(item => item.IsCompleted == isCompleted);
+        }
+
+        var totalCount = await query.CountAsync();
+
+        var items = await query.
+            Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync();
+
+        return new PaginationListDto<ToDoItemDto>(
+            items.Select(item => ConvertToDoItemDto(item)),
+            new PaginationMeta(page, pageSize, totalCount)
+            );
+
     }
 
     private ToDoItem ConvertToDoItem(ToDoItemDto item)
