@@ -61,3 +61,71 @@ C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\D
 C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\zamanov\Source\Repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\appsettings.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.exe
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.deps.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.runtimeconfig.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.pdb
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.AssemblyReference.cache
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.AssemblyInfoInputs.cache
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.AssemblyInfo.cs
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.CoreCompileInputs.cache
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.ToDo WEB API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDo WEB API.props
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDo WEB API.props
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDo WEB API.props
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\scopedcss\bundle\ToDo WEB API.styles.css
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.csproj.CopyComplete
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\refint\ToDo WEB API.dll
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.pdb
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.genruntimeconfig.cache
+C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ref\ToDo WEB API.dll

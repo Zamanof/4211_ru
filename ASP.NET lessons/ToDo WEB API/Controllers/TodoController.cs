@@ -27,9 +27,9 @@ namespace ToDo_WEB_API.Controllers
         public async Task<ActionResult<ToDoItemDto>> Get(int id)
         {
             var item = await _todoService.GetToDoItemAsync(id);
-            return 
-                item != null 
-                ? item 
+            return
+                item != null
+                ? item
                 : NotFound();
         }
 
@@ -41,6 +41,13 @@ namespace ToDo_WEB_API.Controllers
             var createdItem = await _todoService.CreateTodoItem(request);
             return createdItem;
         }
+
+        [HttpPatch("{id}/status")]
+        public async Task<ActionResult<ToDoItemDto>> Patch(int id, [FromBody] bool isCompleted)
+        {
+            var todoItem = await _todoService.ChangeTodoItemStatusAsync(id, isCompleted);
+            return todoItem is not null? todoItem : NotFound();
+        }
     }
 }
 
@@ -50,7 +57,7 @@ namespace ToDo_WEB_API.Controllers
         POST    /products/create  -> html
     Update:
         GET     /products/update/{id}  -> html 
-        POST    /products/upate/{id}  -> html  
+        POST    /products/update/{id}  -> html  
     Delete:
         GET     /products/delete/{id}  -> html 
         POST    /products/delete/{id}  -> html
@@ -64,7 +71,7 @@ Web Api
     Create:
         POST     /products  -> json
     Update:
-        PUT      /products/{id}  -> json 
+        PATCH    /products/{id}  -> json 
     Delete:
         DELETE   /products/{id}  -> json
     GetAll:

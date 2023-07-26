@@ -18,7 +18,7 @@ builder.Services.AddDbContext<ToDoDbContext>(
        }
     );
 
-builder.Services.AddSingleton<ITodoService, TodoService>();
+builder.Services.AddScoped<ITodoService, TodoService>();
 
 var app = builder.Build();
 

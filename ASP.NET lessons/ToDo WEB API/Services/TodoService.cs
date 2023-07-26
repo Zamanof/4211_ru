@@ -1,44 +1,64 @@
-﻿using ToDo_WEB_API.DTOs;
+﻿using ToDo_WEB_API.Data;
+using ToDo_WEB_API.DTOs;
 using ToDo_WEB_API.Models;
 
 namespace ToDo_WEB_API.Services;
 
 public class TodoService : ITodoService
 {
-    private readonly Dictionary<int, ToDoItem> _items = new();
-    private int _nextId = 1;
-    public Task<ToDoItemDto> ChangeTodoItemStatusAsync(int id, bool isCompleted)
+    //private readonly Dictionary<int, ToDoItem> _items = new();
+    //private int _nextId = 1;
+
+    private readonly ToDoDbContext _dbContext;
+
+    public TodoService(ToDoDbContext dbContext)
     {
-        throw new NotImplementedException();
+        _dbContext = dbContext;
     }
 
-    public Task<ToDoItemDto> CreateTodoItem(CreateToDoItemRequest request)
+    public async Task<ToDoItemDto?> ChangeTodoItemStatusAsync(int id, bool isCompleted)
     {
-        var item = new ToDoItemDto()
+        var item = await _dbContext.ToDoItems.FindAsync(id);
+        if (item is null)
         {
-            Id = _nextId++,
+            return null;
+        }
+        item.IsCompleted = isCompleted;
+        item.UpdatedAt = DateTime.UtcNow;
+        await _dbContext.SaveChangesAsync();
+
+        return ConvertToDoItemDto(item);
+    }
+
+    public async Task<ToDoItemDto> CreateTodoItem(CreateToDoItemRequest request)
+    {
+        var now = DateTime.UtcNow;
+        var item = new ToDoItem()
+        {
             Text = request.Text,
-            CreatedAt = DateTime.UtcNow,
+            CreatedAt = now,
+            UpdatedAt = now,
             IsCompleted = false
         };
 
-        _items.Add(item.Id, ConvertToDoItem(item));
-        return Task.FromResult(item);
+        item = _dbContext.ToDoItems.Add(item).Entity;
+        await _dbContext.SaveChangesAsync();
+        return ConvertToDoItemDto(item);
     }
 
-    public Task<ToDoItemDto?> GetToDoItemAsync(int id)
+    public async Task<ToDoItemDto?> GetToDoItemAsync(int id)
     {
-        var item = _items.GetValueOrDefault(id);
-        if (item is null) 
-            return null;
-        else
-            return Task.FromResult(ConvertToDoItemDto(item))!;
+        var item = await _dbContext.ToDoItems.FindAsync(id);
+        return item is not null ?
+            ConvertToDoItemDto(item) :
+            null;
     }
 
     public Task<IEnumerable<ToDoItemDto>> GetToDoItemsAsync()
     {
-        return Task.FromResult<IEnumerable<ToDoItemDto>>(
-            _items.Values.Select(item =>
+        var items = _dbContext.ToDoItems.ToList();
+        return Task.FromResult(
+            items.Select(item =>
             ConvertToDoItemDto(item)));
     }
 
