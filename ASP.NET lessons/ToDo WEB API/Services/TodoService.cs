@@ -88,19 +88,6 @@ public class TodoService : ITodoService
 
     }
 
-    private ToDoItem ConvertToDoItem(ToDoItemDto item)
-    {
-        var todoItem = new ToDoItem()
-        {
-            Id = item.Id,
-            Text = item.Text,
-            CreatedAt = item.CreatedAt,
-            UpdatedAt = item.CreatedAt,
-            IsCompleted = item.IsCompleted
-        };
-        return todoItem;
-    }
-
     private ToDoItemDto ConvertToDoItemDto(ToDoItem item)
     {
         var todoItemDto = new ToDoItemDto()

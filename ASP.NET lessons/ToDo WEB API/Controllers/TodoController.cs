@@ -42,6 +42,14 @@ namespace ToDo_WEB_API.Controllers
                 : NotFound();
         }
 
+        /// <summary>
+        /// Create ToDo Item
+        /// </summary>
+        /// <param name="request"></param>
+        /// <response code="201">Success</response>
+        /// <response code="409">Task already created</response>
+        /// <response code="403">Forbiden</response>
+        
         [HttpPost]
         public async Task<ActionResult<ToDoItemDto>> Post(
             [FromBody] CreateToDoItemRequest request
@@ -50,7 +58,13 @@ namespace ToDo_WEB_API.Controllers
             var createdItem = await _todoService.CreateTodoItem(request);
             return createdItem;
         }
-
+        
+        /// <summary>
+        /// Change ToDo Item status
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="isCompleted"></param>
+        /// <returns>ToDo item with changed status</returns>
         [HttpPatch("{id}/status")]
         public async Task<ActionResult<ToDoItemDto>> Patch(int id, [FromBody] bool isCompleted)
         {
@@ -80,7 +94,10 @@ Web Api
     Create:
         POST     /products  -> json
     Update:
-        PATCH    /products/{id}  -> json 
+        PATCH    /products/{id}/price  -> json
+        PATCH    /products/{id}/name  -> json
+        PATCH    /products/{id}/details  -> json
+        PUT      /products/{id} -> json
     Delete:
         DELETE   /products/{id}  -> json
     GetAll:
