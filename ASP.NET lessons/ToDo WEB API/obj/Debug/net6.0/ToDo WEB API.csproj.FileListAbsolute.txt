@@ -132,3 +132,4 @@ C:\Users\mr13\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debu
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\ToDo WEB API.xml
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.xml
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -4,6 +4,17 @@
         <name>ToDo WEB API</name>
     </assembly>
     <members>
+        <member name="T:ToDo_WEB_API.Controllers.TodoController">
+            <summary>
+            Todo Api main controller
+            </summary>
+        </member>
+        <member name="M:ToDo_WEB_API.Controllers.TodoController.#ctor(ToDo_WEB_API.Services.ITodoService)">
+            <summary>
+            
+            </summary>
+            <param name="todoService"></param>
+        </member>
         <member name="M:ToDo_WEB_API.Controllers.TodoController.Post(ToDo_WEB_API.DTOs.CreateToDoItemRequest)">
             <summary>
             Create ToDo Item
@@ -20,6 +31,21 @@
             <param name="id"></param>
             <param name="isCompleted"></param>
             <returns>ToDo item with changed status</returns>
+        </member>
+        <member name="T:ToDo_WEB_API.DTOs.Pagination.PaginationRequest">
+            
+        </member>
+        <member name="P:ToDo_WEB_API.DTOs.Pagination.PaginationRequest.Page">
+            <summary>
+            Page number
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:ToDo_WEB_API.DTOs.Pagination.PaginationRequest.PageSize">
+            <summary>
+            Page size - How many items in one page 
+            </summary>
+            <example>10</example>
         </member>
     </members>
 </doc>
