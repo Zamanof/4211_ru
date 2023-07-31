@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 using ToDo_WEB_API.DTOs.Auth;
 
 namespace ToDo_WEB_API.Controllers
@@ -23,7 +24,14 @@ namespace ToDo_WEB_API.Controllers
             var claims = new[]
             {
                 new Claim (ClaimsIdentity.DefaultNameClaimType, "admin"),
-                new Claim (ClaimsIdentity.DefaultRoleClaimType, "admin")
+                new Claim (ClaimsIdentity.DefaultRoleClaimType, "admin"),
+                //new Claim("CanTest", "true")
+                new Claim("permissions", JsonSerializer.Serialize(new []{
+                    "CanTest",
+                    "CanDelete",
+                    "CanEdit",
+                    "CanCreate"
+                }))
             };
             var key =
                 new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Super Hard Secure Key"));
@@ -33,7 +41,7 @@ namespace ToDo_WEB_API.Controllers
             var token = new JwtSecurityToken(
                 issuer: "https://localhost:5000",
                 audience: "https://localhost:5000",
-                expires:DateTime.UtcNow.AddMinutes(3),
+                expires:DateTime.UtcNow.AddMinutes(40),
                 signingCredentials: signingCredentials,
                 claims: claims);
            

@@ -8,9 +8,17 @@ using ToDo_WEB_API.Services;
 
 namespace ToDo_WEB_API.Controllers
 {
+    // admin (CanEdit, CanDelete, CanCreate, CanView)
+    // moderator (CanEdit, CanView)
+    // user (CanView)
+    // guest 
+    // permissions CanEdit, CanDelete, CanCreate, CanView
+
     /// <summary>
     /// Todo Api main controller
     /// </summary>
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class TodoController : ControllerBase
@@ -56,7 +64,7 @@ namespace ToDo_WEB_API.Controllers
         /// <response code="201">Success</response>
         /// <response code="409">Task already created</response>
         /// <response code="403">Forbiden</response>
-        [Authorize (Roles ="admin")]
+        
         [HttpPost]
         public async Task<ActionResult<ToDoItemDto>> Post(
             [FromBody] CreateToDoItemRequest request
@@ -73,7 +81,6 @@ namespace ToDo_WEB_API.Controllers
         /// <param name="isCompleted"></param>
         /// <returns>ToDo item with changed status</returns>
         
-        [Authorize(Roles ="moderator")]
         [HttpPatch("{id}/status")]
         public async Task<ActionResult<ToDoItemDto>> Patch(int id, [FromBody] bool isCompleted)
         {
