@@ -133,3 +133,8 @@ C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\D
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\ToDo WEB API.xml
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

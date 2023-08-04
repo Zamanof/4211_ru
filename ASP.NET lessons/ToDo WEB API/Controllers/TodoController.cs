@@ -18,7 +18,7 @@ namespace ToDo_WEB_API.Controllers
     /// Todo Api main controller
     /// </summary>
 
-
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TodoController : ControllerBase
