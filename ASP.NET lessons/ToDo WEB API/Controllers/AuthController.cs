@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Json;
 using ToDo_WEB_API.DTOs.Auth;
 using ToDo_WEB_API.Models;
+using ToDo_WEB_API.Services.Auth;
 
 namespace ToDo_WEB_API.Controllers
 {
@@ -20,15 +21,18 @@ namespace ToDo_WEB_API.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IJwtService _jwtService;
 
         public AuthController(
             UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            IJwtService jwtService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _jwtService = jwtService;
         }
 
         [HttpPost("login")]
@@ -51,38 +55,16 @@ namespace ToDo_WEB_API.Controllers
             var role = await _userManager.GetRolesAsync(user);
             var userClaims = await _userManager.GetClaimsAsync(user);
 
-            var claims = new[]
-            {
-                new Claim (ClaimsIdentity.DefaultNameClaimType, user.Email),
-                new Claim (ClaimsIdentity.DefaultRoleClaimType, string.Join(",", role))
-#region Without Identity adding claims
-//new Claim("CanTest", "true")
-                //new Claim("permissions", JsonSerializer.Serialize(new []{
-                //    "CanTest",
-                //    "CanDelete",
-                //    "CanEdit",
-                //    "CanCreate"
-                //}))
-	#endregion                
-            }.Concat(userClaims);
-            var key =
-                new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Super Hard Secure Key"));
-            var signingCredentials
-                = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: "https://localhost:5000",
-                audience: "https://localhost:5000",
-                expires: DateTime.UtcNow.AddMinutes(3),
-                signingCredentials: signingCredentials,
-                claims: claims);
-
-            var tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+            var accessToken = _jwtService.GenerateSecurityToken(user.UserName, role, userClaims);
+            
             var refreshToken = Guid.NewGuid().ToString("N").ToLower();
+            
+            user.RefreshToken = refreshToken;
+
             await _userManager.UpdateAsync(user);
             return new AuthTokenDto
             {
-                AccessToken = tokenValue,
+                AccessToken = accessToken,
                 RefreshToken = refreshToken
             };
         }
@@ -98,34 +80,7 @@ namespace ToDo_WEB_API.Controllers
                 return Unauthorized();
             }
 
-            var role = await _userManager.GetRolesAsync(user);
-            var userClaims = await _userManager.GetClaimsAsync(user);
-
-            var claims = new[]
-            {
-                new Claim (ClaimsIdentity.DefaultNameClaimType, user.Email),
-                new Claim (ClaimsIdentity.DefaultRoleClaimType, string.Join(",", role))
-            }.Concat(userClaims);
-            var key =
-                new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Super Hard Secure Key"));
-            var signingCredentials
-                = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: "https://localhost:5000",
-                audience: "https://localhost:5000",
-                expires: DateTime.UtcNow.AddMinutes(3),
-                signingCredentials: signingCredentials,
-                claims: claims);
-
-            var tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
-            var refreshToken = user.RefreshToken;
-            await _userManager.UpdateAsync(user);
-            return new AuthTokenDto
-            {
-                AccessToken = tokenValue,
-                RefreshToken = refreshToken
-            };
+            return await GenerateToken(user);
 
         }
 
@@ -152,34 +107,24 @@ namespace ToDo_WEB_API.Controllers
             {
                 return BadRequest(result.Errors);
             }
+
+            return await GenerateToken(user);
             
-            // Copy paste from Refresh
+        }
+
+        private async Task<AuthTokenDto> GenerateToken(AppUser user)
+        {
             var role = await _userManager.GetRolesAsync(user);
             var userClaims = await _userManager.GetClaimsAsync(user);
 
-            var claims = new[]
-            {
-                new Claim (ClaimsIdentity.DefaultNameClaimType, user.Email),
-                new Claim (ClaimsIdentity.DefaultRoleClaimType, string.Join(",", role))
-            }.Concat(userClaims);
-            var key =
-                new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Super Hard Secure Key"));
-            var signingCredentials
-                = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: "https://localhost:5000",
-                audience: "https://localhost:5000",
-                expires: DateTime.UtcNow.AddMinutes(3),
-                signingCredentials: signingCredentials,
-                claims: claims);
-
-            var tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+            var accessToken = _jwtService.GenerateSecurityToken(user.UserName, role, userClaims);
             var refreshToken = user.RefreshToken;
+
             await _userManager.UpdateAsync(user);
+
             return new AuthTokenDto
             {
-                AccessToken = tokenValue,
+                AccessToken = accessToken,
                 RefreshToken = refreshToken
             };
         }
