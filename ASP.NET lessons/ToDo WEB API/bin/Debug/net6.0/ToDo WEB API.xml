@@ -9,7 +9,7 @@
             Todo Api main controller
             </summary>
         </member>
-        <member name="M:ToDo_WEB_API.Controllers.TodoController.#ctor(ToDo_WEB_API.Services.ITodoService)">
+        <member name="M:ToDo_WEB_API.Controllers.TodoController.#ctor(ToDo_WEB_API.Services.ITodoService,ToDo_WEB_API.Providers.IRequestUserProvider)">
             <summary>
             
             </summary>

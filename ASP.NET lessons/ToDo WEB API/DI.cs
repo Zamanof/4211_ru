@@ -6,6 +6,7 @@ using System.Text;
 using ToDo_WEB_API.Auth;
 using ToDo_WEB_API.Data;
 using ToDo_WEB_API.Models;
+using ToDo_WEB_API.Providers;
 using ToDo_WEB_API.Services.Auth;
 
 namespace ToDo_WEB_API;
@@ -59,6 +60,7 @@ public static class DI
         IConfiguration configuration
         ) 
     {
+        services.AddScoped<IRequestUserProvider, RequestUserProvider>();
         services.AddIdentity<AppUser, IdentityRole>()
     .AddEntityFrameworkStores<ToDoDbContext>();
 

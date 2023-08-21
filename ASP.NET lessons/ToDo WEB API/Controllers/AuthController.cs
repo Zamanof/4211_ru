@@ -55,7 +55,10 @@ namespace ToDo_WEB_API.Controllers
             var role = await _userManager.GetRolesAsync(user);
             var userClaims = await _userManager.GetClaimsAsync(user);
 
-            var accessToken = _jwtService.GenerateSecurityToken(user.UserName, role, userClaims);
+            var accessToken = _jwtService.GenerateSecurityToken(
+                user.Id,
+                user.UserName, 
+                role, userClaims);
             
             var refreshToken = Guid.NewGuid().ToString("N").ToLower();
             
@@ -117,7 +120,10 @@ namespace ToDo_WEB_API.Controllers
             var role = await _userManager.GetRolesAsync(user);
             var userClaims = await _userManager.GetClaimsAsync(user);
 
-            var accessToken = _jwtService.GenerateSecurityToken(user.UserName, role, userClaims);
+            var accessToken = _jwtService.GenerateSecurityToken(
+                user.Id,
+                user.UserName, 
+                role, userClaims);
             var refreshToken = user.RefreshToken;
 
             await _userManager.UpdateAsync(user);

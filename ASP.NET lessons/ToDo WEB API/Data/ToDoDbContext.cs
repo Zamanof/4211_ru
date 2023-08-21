@@ -10,5 +10,5 @@ public class ToDoDbContext:IdentityDbContext
 		:base(options)
 	{}
 	public DbSet<ToDoItem> ToDoItems => Set<ToDoItem>();
-	public DbSet<AppUser> Users => Set<AppUser>();
+	public DbSet<AppUser> AppUsers => Set<AppUser>();
 }

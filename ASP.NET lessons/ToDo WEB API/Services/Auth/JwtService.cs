@@ -16,6 +16,7 @@ public class JwtService : IJwtService
     }
 
     public string GenerateSecurityToken(
+        string id,
         string email, 
         IEnumerable<string> roles, 
         IEnumerable<Claim> userClaims)
@@ -23,7 +24,8 @@ public class JwtService : IJwtService
         var claims = new[]
         {
                 new Claim (ClaimsIdentity.DefaultNameClaimType, email),
-                new Claim (ClaimsIdentity.DefaultRoleClaimType, string.Join(",", roles))             
+                new Claim (ClaimsIdentity.DefaultRoleClaimType, string.Join(",", roles)),
+                new Claim("userId", id)
             }.Concat(userClaims);
         var key =
             new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtConfig.Secret));
