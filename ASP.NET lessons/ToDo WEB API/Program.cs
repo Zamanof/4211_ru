@@ -2,6 +2,10 @@ using ToDo_WEB_API.Data;
 using ToDo_WEB_API.Services;
 using Microsoft.EntityFrameworkCore;
 using ToDo_WEB_API;
+using FluentValidation.AspNetCore;
+using ToDo_WEB_API.DTOs.Auth;
+using FluentValidation;
+using ToDo_WEB_API.DTOs.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +27,9 @@ builder.Services.AddDbContext<ToDoDbContext>(
     );
 
 builder.Services.AddScoped<ITodoService, TodoService>();
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
 
 var app = builder.Build();
 

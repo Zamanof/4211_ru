@@ -2,12 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Text.Json;
+
 using ToDo_WEB_API.DTOs.Auth;
 using ToDo_WEB_API.Models;
 using ToDo_WEB_API.Services.Auth;

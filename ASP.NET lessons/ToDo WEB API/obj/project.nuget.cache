@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DS7uyb62bWBrirDvknZZjOHSV6vKDEHmfYVtbT5AKwUWCXyZ8BGpkVYTyQQ7CiX0spDXHTuwBEV61QuHlJnX3A==",
+  "dgSpecHash": "dxnkq9pVlzz8K5r4vJ2Rw044jazSsKErZK+07TZnH6Pm+HTFRlTzhOul9LvFM3fY1FpLQ9x8ax8302+MRFELvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\ToDo WEB API\\ToDo WEB API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\zamanov\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\zamanov\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\zamanov\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.20\\microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",

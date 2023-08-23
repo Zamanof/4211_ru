@@ -143,3 +143,6 @@ C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\D
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDo WEB API.props
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDo WEB API.props
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
