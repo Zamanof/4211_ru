@@ -14,7 +14,7 @@ public class RegisterRequest
 
     //[UserName]
     //[Required]
-    public string UserName { get; set; } = string.Empty;
+    //public string UserName { get; set; } = string.Empty;
 }
 
 //public class UserNameAttribute : ValidationAttribute
