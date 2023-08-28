@@ -6,6 +6,7 @@ using FluentValidation.AspNetCore;
 using ToDo_WEB_API.DTOs.Auth;
 using FluentValidation;
 using ToDo_WEB_API.DTOs.Validation;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,23 @@ builder.Services.AddDbContext<ToDoDbContext>(
     );
 
 builder.Services.AddScoped<ITodoService, TodoService>();
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Error()
+    .WriteTo.Console()
+    .WriteTo.File("log.txt",
+                rollingInterval: RollingInterval.Day,
+                rollOnFileSizeLimit: true)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+builder.Services.AddLogging(options =>
+        {
+            //options.SetMinimumLevel(LogLevel.Debug);
+            //options.AddJsonConsole();
+        }
+    );
 
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
