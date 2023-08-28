@@ -58,6 +58,9 @@ builder.Services.AddLogging(options =>
         }
     );
 
+
+builder.Services.AddMemoryCache();
+
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterRequestValidator>();
 
@@ -69,6 +72,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseResponseCaching();
 
 app.UseAuthentication();
 
