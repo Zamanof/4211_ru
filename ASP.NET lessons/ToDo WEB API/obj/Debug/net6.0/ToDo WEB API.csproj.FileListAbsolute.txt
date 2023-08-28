@@ -168,3 +168,5 @@ C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\D
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Serilog.Enrichers.Process.dll
+C:\Users\zamanov\source\repos\Zamanof\4211_ru\ASP.NET lessons\ToDo WEB API\bin\Debug\net6.0\Serilog.Enrichers.Thread.dll

@@ -7,6 +7,7 @@ using ToDo_WEB_API.DTOs.Auth;
 using FluentValidation;
 using ToDo_WEB_API.DTOs.Validation;
 using Serilog;
+using Serilog.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,11 +31,22 @@ builder.Services.AddDbContext<ToDoDbContext>(
 builder.Services.AddScoped<ITodoService, TodoService>();
 
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Error()
-    .WriteTo.Console()
-    .WriteTo.File("log.txt",
-                rollingInterval: RollingInterval.Day,
-                rollOnFileSizeLimit: true)
+    //.MinimumLevel.Information()
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+    .Enrich.WithProcessName()
+    .Enrich.WithThreadId()
+    .Enrich.WithThreadName()
+    .WriteTo.Console(outputTemplate: "{Timestamp: yyyy / MM / dd   HH:mm:ss} {Level:w3} " +
+    "{Message: lj} " +
+    "{NewLine}" +
+    "ThreadId: {ThreadId} {NewLine}" +
+    "ThreadName: {ThreadName}{NewLine}" +
+    "ProcessName: {ProcessName}"+
+    "{Exception}" +
+    "{NewLine}")
+    //.WriteTo.File("log.txt",
+    //            rollingInterval: RollingInterval.Day,
+    //            rollOnFileSizeLimit: true)
     .CreateLogger();
 
 builder.Host.UseSerilog();

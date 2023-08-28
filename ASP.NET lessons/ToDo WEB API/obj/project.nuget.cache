@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HzTSqYoAArvuUxHJkq0XWhLeCRsdnddtckGNYiZN1W8WVTeY1E1wqZ7jQUOMtlxPiqgrimNMzrSKxWMjFUkTeg==",
+  "dgSpecHash": "nB7JyiFOqkFvFgxA5Vj1DriSEcrPC05EpOcNeLDRl72EKcobb4ZfWa/vKhje572JTzaNvBS81OY+1oyLP1KTUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\zamanov\\source\\repos\\Zamanof\\4211_ru\\ASP.NET lessons\\ToDo WEB API\\ToDo WEB API.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,8 @@
     "C:\\Users\\zamanov\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\serilog\\3.0.1\\serilog.3.0.1.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\serilog.aspnetcore\\7.0.0\\serilog.aspnetcore.7.0.0.nupkg.sha512",
+    "C:\\Users\\zamanov\\.nuget\\packages\\serilog.enrichers.process\\2.0.2\\serilog.enrichers.process.2.0.2.nupkg.sha512",
+    "C:\\Users\\zamanov\\.nuget\\packages\\serilog.enrichers.thread\\3.1.0\\serilog.enrichers.thread.3.1.0.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\serilog.extensions.hosting\\7.0.0\\serilog.extensions.hosting.7.0.0.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\serilog.extensions.logging\\7.0.0\\serilog.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\zamanov\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
