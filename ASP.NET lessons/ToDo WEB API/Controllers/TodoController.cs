@@ -37,6 +37,24 @@ namespace ToDo_WEB_API.Controllers
             _userProvider = userProvider;
         }
 
+
+        [Authorize(Roles = "admin")]
+        [HttpGet("/api/users/{userId}/[controller]")]
+        public async Task<ActionResult<PaginationListDto<ToDoItemDto>>> GetList(
+            [FromQuery] ToDoQueryFilters filters,
+            [FromQuery] PaginationRequest request,
+            string userId
+            )
+        {
+            return await _todoService.GetToDoItemsAsync(
+               userId,
+                request.Page,
+                request.PageSize,
+                filters.Search,
+                filters.IsCompleted
+                );
+        }
+
         [HttpGet]
         public async Task<ActionResult<PaginationListDto<ToDoItemDto>>> Get(
             [FromQuery] ToDoQueryFilters filters,

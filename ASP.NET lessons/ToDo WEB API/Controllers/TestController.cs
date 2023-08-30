@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 //using Serilog;
@@ -12,13 +13,16 @@ namespace ToDo_WEB_API.Controllers
     {
         private readonly ILogger _logger;
         private readonly IMemoryCache _memoryCache;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public TestController(
-            ILogger<TestController> logger, 
-            IMemoryCache memoryCache)
+            ILogger<TestController> logger,
+            IMemoryCache memoryCache,
+            RoleManager<IdentityRole> roleManager)
         {
             _logger = logger;
             _memoryCache = memoryCache;
+            _roleManager = roleManager;
         }
 
         //[Authorize(Policy ="CanTest")]
@@ -47,6 +51,16 @@ namespace ToDo_WEB_API.Controllers
             //Log.Error("test");
             //Log.Information("It's works -> 200 OK");
             //return Ok("It Works");
+        }
+        [HttpPost("Add Role")]
+        public async Task<ActionResult> AddRole(string roleName)
+        {
+            if (!_roleManager.RoleExistsAsync(roleName).Result)
+            {
+                var role = new IdentityRole(roleName);
+                await _roleManager.CreateAsync(role);
+            }
+            return Ok();
         }
     }
 }

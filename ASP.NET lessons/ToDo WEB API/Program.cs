@@ -8,6 +8,7 @@ using FluentValidation;
 using ToDo_WEB_API.DTOs.Validation;
 using Serilog;
 using Serilog.Events;
+using ToDo_WEB_API.Hosted_Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,6 +52,8 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+//builder.Services.AddHostedService<DatabaseClearJob>();
+
 builder.Services.AddLogging(options =>
         {
             //options.SetMinimumLevel(LogLevel.Debug);
@@ -70,7 +73,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(x=>x.EnablePersistAuthorization());
 }
 
 app.UseResponseCaching();
